@@ -1,0 +1,1555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390ECBEB218AB5B20031D400 /* SurfaceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 390ECBEA218AB5B20031D400 /* SurfaceList.plist */; };
+		390ECBED218ABB9E0031D400 /* Zoe.wav in Resources */ = {isa = PBXBuildFile; fileRef = 390ECBEC218ABB9E0031D400 /* Zoe.wav */; };
+		390ECBEF218ABBA90031D400 /* Count.wav in Resources */ = {isa = PBXBuildFile; fileRef = 390ECBEE218ABBA80031D400 /* Count.wav */; };
+		390ECBF1218ABBB70031D400 /* Bert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 390ECBF0218ABBB60031D400 /* Bert.wav */; };
+		3935EC882188776C00BE35F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EC872188776C00BE35F4 /* AppDelegate.m */; };
+		3935EC902188776D00BE35F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3935EC8F2188776D00BE35F4 /* Assets.xcassets */; };
+		3935EC932188776D00BE35F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3935EC912188776D00BE35F4 /* LaunchScreen.storyboard */; };
+		3935EC962188776D00BE35F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EC952188776D00BE35F4 /* main.m */; };
+		3935ECDA21887A7B00BE35F4 /* CatogoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECB121887A7A00BE35F4 /* CatogoryViewController.m */; };
+		3935ECDB21887A7B00BE35F4 /* SurfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECB321887A7A00BE35F4 /* SurfaceViewController.m */; };
+		3935ECDC21887A7B00BE35F4 /* SurfaceViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECB521887A7A00BE35F4 /* SurfaceViewCell.m */; };
+		3935ECDD21887A7B00BE35F4 /* CatogoryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECB821887A7A00BE35F4 /* CatogoryViewCell.m */; };
+		3935ECDE21887A7B00BE35F4 /* LayerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECBA21887A7A00BE35F4 /* LayerViewCell.m */; };
+		3935ECDF21887A7B00BE35F4 /* ModuleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECBC21887A7A00BE35F4 /* ModuleViewCell.m */; };
+		3935ECE021887A7B00BE35F4 /* ModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECBF21887A7A00BE35F4 /* ModuleViewController.m */; };
+		3935ECE121887A7B00BE35F4 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECC221887A7A00BE35F4 /* DataViewController.m */; };
+		3935ECE221887A7B00BE35F4 /* DataViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECC321887A7A00BE35F4 /* DataViewCell.m */; };
+		3935ECE321887A7B00BE35F4 /* GameProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECC721887A7A00BE35F4 /* GameProcessCell.m */; };
+		3935ECE421887A7B00BE35F4 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECC821887A7A00BE35F4 /* GameViewController.m */; };
+		3935ECE521887A7B00BE35F4 /* StepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECCA21887A7A00BE35F4 /* StepModel.m */; };
+		3935ECE621887A7B00BE35F4 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECCC21887A7B00BE35F4 /* CustomViewController.m */; };
+		3935ECE721887A7B00BE35F4 /* FloorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECCF21887A7B00BE35F4 /* FloorViewCell.m */; };
+		3935ECE821887A7B00BE35F4 /* CustomProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECD121887A7B00BE35F4 /* CustomProcessCell.m */; };
+		3935ECE921887A7B00BE35F4 /* ColorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECD321887A7B00BE35F4 /* ColorViewCell.m */; };
+		3935ECEA21887A7B00BE35F4 /* GameViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECD421887A7B00BE35F4 /* GameViewCell.m */; };
+		3935ECEB21887A7B00BE35F4 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECD921887A7B00BE35F4 /* ConnectionViewController.m */; };
+		3935ECEE21887AA400BE35F4 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECED21887AA400BE35F4 /* Tool.m */; };
+		3935ECF321887AD000BE35F4 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECF021887ACF00BE35F4 /* NavigationController.m */; };
+		3935ECF421887AD000BE35F4 /* SendData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935ECF121887ACF00BE35F4 /* SendData.m */; };
+		3935EDD921887B6C00BE35F4 /* 考拉.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECF621887B6B00BE35F4 /* 考拉.wav */; };
+		3935EDDA21887B6C00BE35F4 /* 夜莺.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECF721887B6B00BE35F4 /* 夜莺.wav */; };
+		3935EDDB21887B6C00BE35F4 /* 田鼠.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECF821887B6B00BE35F4 /* 田鼠.wav */; };
+		3935EDDC21887B6C00BE35F4 /* 山羊.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECF921887B6B00BE35F4 /* 山羊.wav */; };
+		3935EDDD21887B6C00BE35F4 /* 兔子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECFA21887B6B00BE35F4 /* 兔子.wav */; };
+		3935EDDE21887B6C00BE35F4 /* 北极鸥.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECFB21887B6B00BE35F4 /* 北极鸥.wav */; };
+		3935EDDF21887B6C00BE35F4 /* 牦牛.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECFC21887B6B00BE35F4 /* 牦牛.wav */; };
+		3935EDE121887B6C00BE35F4 /* 水母.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ECFE21887B6B00BE35F4 /* 水母.wav */; };
+		3935EDE421887B6C00BE35F4 /* 斑马.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0121887B6B00BE35F4 /* 斑马.wav */; };
+		3935EDE521887B6C00BE35F4 /* 狐狸.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0221887B6B00BE35F4 /* 狐狸.wav */; };
+		3935EDE621887B6C00BE35F4 /* 猴子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0321887B6B00BE35F4 /* 猴子.wav */; };
+		3935EDE721887B6C00BE35F4 /* 狗.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0421887B6B00BE35F4 /* 狗.wav */; };
+		3935EDE821887B6C00BE35F4 /* 章鱼.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0521887B6B00BE35F4 /* 章鱼.wav */; };
+		3935EDE921887B6C00BE35F4 /* 二趾树懒.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0621887B6B00BE35F4 /* 二趾树懒.wav */; };
+		3935EDEB21887B6C00BE35F4 /* 天鹅.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0821887B6B00BE35F4 /* 天鹅.wav */; };
+		3935EDEC21887B6C00BE35F4 /* 海狸.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0921887B6B00BE35F4 /* 海狸.wav */; };
+		3935EDED21887B6C00BE35F4 /* 龟.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0A21887B6B00BE35F4 /* 龟.wav */; };
+		3935EDEE21887B6C00BE35F4 /* 短吻鳄.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0B21887B6B00BE35F4 /* 短吻鳄.wav */; };
+		3935EDEF21887B6C00BE35F4 /* 鬣鳞蜥.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0C21887B6B00BE35F4 /* 鬣鳞蜥.wav */; };
+		3935EDF021887B6C00BE35F4 /* 河马.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0D21887B6B00BE35F4 /* 河马.wav */; };
+		3935EDF121887B6C00BE35F4 /* 鹰.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0E21887B6B00BE35F4 /* 鹰.wav */; };
+		3935EDF221887B6C00BE35F4 /* 鹌鹑.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED0F21887B6B00BE35F4 /* 鹌鹑.wav */; };
+		3935EDF521887B6C00BE35F4 /* 猫.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1221887B6B00BE35F4 /* 猫.wav */; };
+		3935EDF621887B6C00BE35F4 /* 狮子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1321887B6B00BE35F4 /* 狮子.wav */; };
+		3935EDF921887B6C00BE35F4 /* 鹦鹉.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1621887B6B00BE35F4 /* 鹦鹉.wav */; };
+		3935EDFB21887B6C00BE35F4 /* 海象.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1821887B6B00BE35F4 /* 海象.wav */; };
+		3935EDFE21887B6C00BE35F4 /* 再接再厉.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1C21887B6B00BE35F4 /* 再接再厉.wav */; };
+		3935EDFF21887B6C00BE35F4 /* OH~NO!.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1D21887B6B00BE35F4 /* OH~NO!.wav */; };
+		3935EE0021887B6C00BE35F4 /* 嘟嘟错误音效.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1E21887B6B00BE35F4 /* 嘟嘟错误音效.wav */; };
+		3935EE0121887B6C00BE35F4 /* 错误提示.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED1F21887B6B00BE35F4 /* 错误提示.wav */; };
+		3935EE0221887B6C00BE35F4 /* 加油.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2021887B6B00BE35F4 /* 加油.wav */; };
+		3935EE0321887B6C00BE35F4 /* 太棒了.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2121887B6B00BE35F4 /* 太棒了.wav */; };
+		3935EE0421887B6C00BE35F4 /* 正确提示.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2221887B6B00BE35F4 /* 正确提示.wav */; };
+		3935EE0521887B6C00BE35F4 /* 模式切换按钮的音效.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2321887B6B00BE35F4 /* 模式切换按钮的音效.wav */; };
+		3935EE0621887B6C00BE35F4 /* 很遗憾下次加油哦.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2421887B6B00BE35F4 /* 很遗憾下次加油哦.wav */; };
+		3935EE0721887B6C00BE35F4 /* biu警报声.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2521887B6B00BE35F4 /* biu警报声.wav */; };
+		3935EE0821887B6C00BE35F4 /* good.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2621887B6B00BE35F4 /* good.wav */; };
+		3935EE0921887B6C00BE35F4 /* 爆炸声音.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2721887B6B00BE35F4 /* 爆炸声音.wav */; };
+		3935EE0A21887B6C00BE35F4 /* 峰鸣警报.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2821887B6B00BE35F4 /* 峰鸣警报.wav */; };
+		3935EE0B21887B6C00BE35F4 /* 啊哦.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2921887B6B00BE35F4 /* 啊哦.wav */; };
+		3935EE0C21887B6C00BE35F4 /* 你答对了.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2A21887B6B00BE35F4 /* 你答对了.wav */; };
+		3935EE0D21887B6C00BE35F4 /* 噔.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2B21887B6B00BE35F4 /* 噔.wav */; };
+		3935EE0E21887B6C00BE35F4 /* 你答错了.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2C21887B6B00BE35F4 /* 你答错了.wav */; };
+		3935EE0F21887B6C00BE35F4 /* 闯关失败.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2D21887B6B00BE35F4 /* 闯关失败.wav */; };
+		3935EE1021887B6C00BE35F4 /* 哦喔.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED2E21887B6B00BE35F4 /* 哦喔.wav */; };
+		3935EE1121887B6C00BE35F4 /* 姨丈.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3021887B6B00BE35F4 /* 姨丈.wav */; };
+		3935EE1221887B6C00BE35F4 /* 堂姐.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3121887B6B00BE35F4 /* 堂姐.wav */; };
+		3935EE1321887B6C00BE35F4 /* 表妹.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3221887B6B00BE35F4 /* 表妹.wav */; };
+		3935EE1421887B6C00BE35F4 /* 嫂嫂.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3321887B6B00BE35F4 /* 嫂嫂.wav */; };
+		3935EE1521887B6C00BE35F4 /* 外婆.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3421887B6B00BE35F4 /* 外婆.wav */; };
+		3935EE1621887B6C00BE35F4 /* 姐姐.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3521887B6B00BE35F4 /* 姐姐.wav */; };
+		3935EE1721887B6C00BE35F4 /* 阿姨.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3621887B6B00BE35F4 /* 阿姨.wav */; };
+		3935EE1821887B6C00BE35F4 /* 姐夫.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3721887B6B00BE35F4 /* 姐夫.wav */; };
+		3935EE1921887B6C00BE35F4 /* 表弟.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3821887B6B00BE35F4 /* 表弟.wav */; };
+		3935EE1A21887B6C00BE35F4 /* 外公.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3921887B6B00BE35F4 /* 外公.wav */; };
+		3935EE1B21887B6C00BE35F4 /* 舅舅.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3A21887B6B00BE35F4 /* 舅舅.wav */; };
+		3935EE1C21887B6C00BE35F4 /* 伯伯.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3B21887B6B00BE35F4 /* 伯伯.wav */; };
+		3935EE1D21887B6C00BE35F4 /* 姑姑.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3C21887B6B00BE35F4 /* 姑姑.wav */; };
+		3935EE1E21887B6C00BE35F4 /* 堂哥.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3D21887B6B00BE35F4 /* 堂哥.wav */; };
+		3935EE1F21887B6C00BE35F4 /* 舅妈.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3E21887B6B00BE35F4 /* 舅妈.wav */; };
+		3935EE2021887B6C00BE35F4 /* 奶奶.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED3F21887B6B00BE35F4 /* 奶奶.wav */; };
+		3935EE2121887B6C00BE35F4 /* 堂妹.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4021887B6B00BE35F4 /* 堂妹.wav */; };
+		3935EE2221887B6C00BE35F4 /* 姑父.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4121887B6B00BE35F4 /* 姑父.wav */; };
+		3935EE2321887B6C00BE35F4 /* 叔叔.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4221887B6C00BE35F4 /* 叔叔.wav */; };
+		3935EE2421887B6C00BE35F4 /* 哥哥.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4321887B6C00BE35F4 /* 哥哥.wav */; };
+		3935EE2521887B6C00BE35F4 /* 表姐.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4421887B6C00BE35F4 /* 表姐.wav */; };
+		3935EE2621887B6C00BE35F4 /* 表哥.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4521887B6C00BE35F4 /* 表哥.wav */; };
+		3935EE2721887B6C00BE35F4 /* 婶婶.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4621887B6C00BE35F4 /* 婶婶.wav */; };
+		3935EE2821887B6C00BE35F4 /* 堂弟.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4721887B6C00BE35F4 /* 堂弟.wav */; };
+		3935EE2921887B6C00BE35F4 /* 伯母.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4821887B6C00BE35F4 /* 伯母.wav */; };
+		3935EE2A21887B6C00BE35F4 /* 爷爷.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4921887B6C00BE35F4 /* 爷爷.wav */; };
+		3935EE2B21887B6C00BE35F4 /* Oscar.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4B21887B6C00BE35F4 /* Oscar.wav */; };
+		3935EE2C21887B6C00BE35F4 /* Elmo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4C21887B6C00BE35F4 /* Elmo.wav */; };
+		3935EE2D21887B6C00BE35F4 /* Big bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4D21887B6C00BE35F4 /* Big bird.wav */; };
+		3935EE2E21887B6C00BE35F4 /* Abby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4E21887B6C00BE35F4 /* Abby.wav */; };
+		3935EE2F21887B6C00BE35F4 /* Cookie monster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED4F21887B6C00BE35F4 /* Cookie monster.wav */; };
+		3935EE3021887B6C00BE35F4 /* Ernie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5021887B6C00BE35F4 /* Ernie.wav */; };
+		3935EE3121887B6C00BE35F4 /* 直升飞机.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5221887B6C00BE35F4 /* 直升飞机.wav */; };
+		3935EE3221887B6C00BE35F4 /* 船.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5321887B6C00BE35F4 /* 船.wav */; };
+		3935EE3321887B6C00BE35F4 /* 摩托车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5421887B6C00BE35F4 /* 摩托车.wav */; };
+		3935EE3421887B6C00BE35F4 /* 热气球.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5521887B6C00BE35F4 /* 热气球.wav */; };
+		3935EE3521887B6C00BE35F4 /* 警车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5621887B6C00BE35F4 /* 警车.wav */; };
+		3935EE3621887B6C00BE35F4 /* 耕田机.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5721887B6C00BE35F4 /* 耕田机.wav */; };
+		3935EE3721887B6C00BE35F4 /* 卡车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5821887B6C00BE35F4 /* 卡车.wav */; };
+		3935EE3821887B6C00BE35F4 /* 潜艇.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5921887B6C00BE35F4 /* 潜艇.wav */; };
+		3935EE3921887B6C00BE35F4 /* 太空船.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5A21887B6C00BE35F4 /* 太空船.wav */; };
+		3935EE3A21887B6C00BE35F4 /* 货船.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5B21887B6C00BE35F4 /* 货船.wav */; };
+		3935EE3B21887B6C00BE35F4 /* 泥头车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5C21887B6C00BE35F4 /* 泥头车.wav */; };
+		3935EE3C21887B6C00BE35F4 /* 飞机.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5D21887B6C00BE35F4 /* 飞机.wav */; };
+		3935EE3D21887B6C00BE35F4 /* 挖掘机.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5E21887B6C00BE35F4 /* 挖掘机.wav */; };
+		3935EE3E21887B6C00BE35F4 /* 山地车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED5F21887B6C00BE35F4 /* 山地车.wav */; };
+		3935EE3F21887B6C00BE35F4 /* 自行车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6021887B6C00BE35F4 /* 自行车.wav */; };
+		3935EE4021887B6C00BE35F4 /* 高铁.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6121887B6C00BE35F4 /* 高铁.wav */; };
+		3935EE4121887B6C00BE35F4 /* 救护车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6221887B6C00BE35F4 /* 救护车.wav */; };
+		3935EE4221887B6C00BE35F4 /* 缆车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6321887B6C00BE35F4 /* 缆车.wav */; };
+		3935EE4321887B6C00BE35F4 /* 出租车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6421887B6C00BE35F4 /* 出租车.wav */; };
+		3935EE4421887B6C00BE35F4 /* 校车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6521887B6C00BE35F4 /* 校车.wav */; };
+		3935EE4521887B6C00BE35F4 /* 装甲车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6621887B6C00BE35F4 /* 装甲车.wav */; };
+		3935EE4621887B6C00BE35F4 /* 消防车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6721887B6C00BE35F4 /* 消防车.wav */; };
+		3935EE4721887B6C00BE35F4 /* 轿车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6821887B6C00BE35F4 /* 轿车.wav */; };
+		3935EE4821887B6C00BE35F4 /* 公交车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6921887B6C00BE35F4 /* 公交车.wav */; };
+		3935EE4921887B6C00BE35F4 /* 货车.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6A21887B6C00BE35F4 /* 货车.wav */; };
+		3935EE4A21887B6C00BE35F4 /* 帆船.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6B21887B6C00BE35F4 /* 帆船.wav */; };
+		3935EE4B21887B6C00BE35F4 /* 哈密瓜.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6D21887B6C00BE35F4 /* 哈密瓜.wav */; };
+		3935EE4C21887B6C00BE35F4 /* 柿子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6E21887B6C00BE35F4 /* 柿子.wav */; };
+		3935EE4D21887B6C00BE35F4 /* 释迦.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED6F21887B6C00BE35F4 /* 释迦.wav */; };
+		3935EE4E21887B6C00BE35F4 /* 桃子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7021887B6C00BE35F4 /* 桃子.wav */; };
+		3935EE4F21887B6C00BE35F4 /* 百香果.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7121887B6C00BE35F4 /* 百香果.wav */; };
+		3935EE5021887B6C00BE35F4 /* 椰子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7221887B6C00BE35F4 /* 椰子.wav */; };
+		3935EE5121887B6C00BE35F4 /* 无花果.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7321887B6C00BE35F4 /* 无花果.wav */; };
+		3935EE5221887B6C00BE35F4 /* 山竹.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7421887B6C00BE35F4 /* 山竹.wav */; };
+		3935EE5321887B6C00BE35F4 /* 西瓜.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7521887B6C00BE35F4 /* 西瓜.wav */; };
+		3935EE5421887B6C00BE35F4 /* 菠萝.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7621887B6C00BE35F4 /* 菠萝.wav */; };
+		3935EE5521887B6C00BE35F4 /* 柚子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7721887B6C00BE35F4 /* 柚子.wav */; };
+		3935EE5621887B6C00BE35F4 /* 香蕉.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7821887B6C00BE35F4 /* 香蕉.wav */; };
+		3935EE5721887B6C00BE35F4 /* 火龙果.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7921887B6C00BE35F4 /* 火龙果.wav */; };
+		3935EE5821887B6C00BE35F4 /* 樱桃.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7A21887B6C00BE35F4 /* 樱桃.wav */; };
+		3935EE5921887B6C00BE35F4 /* 蓝莓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7B21887B6C00BE35F4 /* 蓝莓.wav */; };
+		3935EE5A21887B6C00BE35F4 /* 香梨.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7C21887B6C00BE35F4 /* 香梨.wav */; };
+		3935EE5B21887B6C00BE35F4 /* 葡萄.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7D21887B6C00BE35F4 /* 葡萄.wav */; };
+		3935EE5C21887B6C00BE35F4 /* 石榴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7E21887B6C00BE35F4 /* 石榴.wav */; };
+		3935EE5D21887B6C00BE35F4 /* 猕猴桃.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED7F21887B6C00BE35F4 /* 猕猴桃.wav */; };
+		3935EE5E21887B6C00BE35F4 /* 芒果.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8021887B6C00BE35F4 /* 芒果.wav */; };
+		3935EE5F21887B6C00BE35F4 /* 三华李.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8121887B6C00BE35F4 /* 三华李.wav */; };
+		3935EE6021887B6C00BE35F4 /* 草莓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8221887B6C00BE35F4 /* 草莓.wav */; };
+		3935EE6121887B6C00BE35F4 /* 柠檬.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8321887B6C00BE35F4 /* 柠檬.wav */; };
+		3935EE6221887B6C00BE35F4 /* 苹果.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8421887B6C00BE35F4 /* 苹果.wav */; };
+		3935EE6321887B6C00BE35F4 /* 香橙.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8521887B6C00BE35F4 /* 香橙.wav */; };
+		3935EE6421887B6C00BE35F4 /* 杏子.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8621887B6C00BE35F4 /* 杏子.wav */; };
+		3935EE6621887B6C00BE35F4 /* 16.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8921887B6C00BE35F4 /* 16.wav */; };
+		3935EE6721887B6C00BE35F4 /* 17.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8A21887B6C00BE35F4 /* 17.wav */; };
+		3935EE6821887B6C00BE35F4 /* 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8B21887B6C00BE35F4 /* 15.wav */; };
+		3935EE6921887B6C00BE35F4 /* 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8C21887B6C00BE35F4 /* 14.wav */; };
+		3935EE6A21887B6C00BE35F4 /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8D21887B6C00BE35F4 /* 10.wav */; };
+		3935EE6B21887B6C00BE35F4 /* 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8E21887B6C00BE35F4 /* 11.wav */; };
+		3935EE6C21887B6C00BE35F4 /* 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED8F21887B6C00BE35F4 /* 13.wav */; };
+		3935EE6D21887B6C00BE35F4 /* 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9021887B6C00BE35F4 /* 12.wav */; };
+		3935EE6E21887B6C00BE35F4 /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9121887B6C00BE35F4 /* 9.wav */; };
+		3935EE6F21887B6C00BE35F4 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9221887B6C00BE35F4 /* 8.wav */; };
+		3935EE7021887B6C00BE35F4 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9321887B6C00BE35F4 /* 6.wav */; };
+		3935EE7121887B6C00BE35F4 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9421887B6C00BE35F4 /* 7.wav */; };
+		3935EE7221887B6C00BE35F4 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9521887B6C00BE35F4 /* 5.wav */; };
+		3935EE7321887B6C00BE35F4 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9621887B6C00BE35F4 /* 4.wav */; };
+		3935EE7421887B6C00BE35F4 /* 0.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9721887B6C00BE35F4 /* 0.wav */; };
+		3935EE7521887B6C00BE35F4 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9821887B6C00BE35F4 /* 1.wav */; };
+		3935EE7621887B6C00BE35F4 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9921887B6C00BE35F4 /* 3.wav */; };
+		3935EE7721887B6C00BE35F4 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9A21887B6C00BE35F4 /* 2.wav */; };
+		3935EE7821887B6C00BE35F4 /* 23.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9B21887B6C00BE35F4 /* 23.wav */; };
+		3935EE7921887B6C00BE35F4 /* 22.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9C21887B6C00BE35F4 /* 22.wav */; };
+		3935EE7A21887B6C00BE35F4 /* 20.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9D21887B6C00BE35F4 /* 20.wav */; };
+		3935EE7B21887B6C00BE35F4 /* 21.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9E21887B6C00BE35F4 /* 21.wav */; };
+		3935EE7C21887B6C00BE35F4 /* 19.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935ED9F21887B6C00BE35F4 /* 19.wav */; };
+		3935EE7D21887B6C00BE35F4 /* 25.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA021887B6C00BE35F4 /* 25.wav */; };
+		3935EE7E21887B6C00BE35F4 /* 24.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA121887B6C00BE35F4 /* 24.wav */; };
+		3935EE7F21887B6C00BE35F4 /* 18.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA221887B6C00BE35F4 /* 18.wav */; };
+		3935EE8021887B6C00BE35F4 /* 节拍器.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA421887B6C00BE35F4 /* 节拍器.wav */; };
+		3935EE8121887B6C00BE35F4 /* 钢琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA521887B6C00BE35F4 /* 钢琴.wav */; };
+		3935EE8221887B6C00BE35F4 /* 手风琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA621887B6C00BE35F4 /* 手风琴.wav */; };
+		3935EE8321887B6C00BE35F4 /* 鼓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA721887B6C00BE35F4 /* 鼓.wav */; };
+		3935EE8421887B6C00BE35F4 /* 贝斯.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA821887B6C00BE35F4 /* 贝斯.wav */; };
+		3935EE8521887B6C00BE35F4 /* 木琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDA921887B6C00BE35F4 /* 木琴.wav */; };
+		3935EE8621887B6C00BE35F4 /* 排箫.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAA21887B6C00BE35F4 /* 排箫.wav */; };
+		3935EE8721887B6C00BE35F4 /* 手摇铃.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAB21887B6C00BE35F4 /* 手摇铃.wav */; };
+		3935EE8821887B6C00BE35F4 /* 萨克斯管.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAC21887B6C00BE35F4 /* 萨克斯管.wav */; };
+		3935EE8921887B6C00BE35F4 /* 竖琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAD21887B6C00BE35F4 /* 竖琴.wav */; };
+		3935EE8A21887B6C00BE35F4 /* 电吉他.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAE21887B6C00BE35F4 /* 电吉他.wav */; };
+		3935EE8B21887B6C00BE35F4 /* 非洲手鼓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDAF21887B6C00BE35F4 /* 非洲手鼓.wav */; };
+		3935EE8C21887B6C00BE35F4 /* 口琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB021887B6C00BE35F4 /* 口琴.wav */; };
+		3935EE8D21887B6C00BE35F4 /* 琵琶.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB121887B6C00BE35F4 /* 琵琶.wav */; };
+		3935EE8E21887B6C00BE35F4 /* 钹.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB221887B6C00BE35F4 /* 钹.wav */; };
+		3935EE8F21887B6C00BE35F4 /* 竖笛.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB321887B6C00BE35F4 /* 竖笛.wav */; };
+		3935EE9021887B6C00BE35F4 /* 沙锤.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB421887B6C00BE35F4 /* 沙锤.wav */; };
+		3935EE9121887B6C00BE35F4 /* 小号.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB521887B6C00BE35F4 /* 小号.wav */; };
+		3935EE9221887B6C00BE35F4 /* 吉他.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB621887B6C00BE35F4 /* 吉他.wav */; };
+		3935EE9321887B6C00BE35F4 /* 三角铁.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB721887B6C00BE35F4 /* 三角铁.wav */; };
+		3935EE9421887B6C00BE35F4 /* 小提琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB821887B6C00BE35F4 /* 小提琴.wav */; };
+		3935EE9521887B6C00BE35F4 /* 单簧管.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDB921887B6C00BE35F4 /* 单簧管.wav */; };
+		3935EE9621887B6C00BE35F4 /* 爵士鼓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDBA21887B6C00BE35F4 /* 爵士鼓.wav */; };
+		3935EE9721887B6C00BE35F4 /* 康加鼓.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDBB21887B6C00BE35F4 /* 康加鼓.wav */; };
+		3935EE9821887B6C00BE35F4 /* 电子琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDBC21887B6C00BE35F4 /* 电子琴.wav */; };
+		3935EE9921887B6C00BE35F4 /* 中提琴.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDBD21887B6C00BE35F4 /* 中提琴.wav */; };
+		3935EE9A21887B6C00BE35F4 /* I.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDBF21887B6C00BE35F4 /* I.wav */; };
+		3935EE9B21887B6C00BE35F4 /* H.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC021887B6C00BE35F4 /* H.wav */; };
+		3935EE9C21887B6C00BE35F4 /* J.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC121887B6C00BE35F4 /* J.wav */; };
+		3935EE9D21887B6C00BE35F4 /* K.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC221887B6C00BE35F4 /* K.wav */; };
+		3935EE9E21887B6C00BE35F4 /* X.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC321887B6C00BE35F4 /* X.wav */; };
+		3935EE9F21887B6C00BE35F4 /* O.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC421887B6C00BE35F4 /* O.wav */; };
+		3935EEA021887B6C00BE35F4 /* N.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC521887B6C00BE35F4 /* N.wav */; };
+		3935EEA121887B6C00BE35F4 /* Y.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC621887B6C00BE35F4 /* Y.wav */; };
+		3935EEA221887B6C00BE35F4 /* L.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC721887B6C00BE35F4 /* L.wav */; };
+		3935EEA321887B6C00BE35F4 /* M.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC821887B6C00BE35F4 /* M.wav */; };
+		3935EEA421887B6C00BE35F4 /* Z.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDC921887B6C00BE35F4 /* Z.wav */; };
+		3935EEA521887B6C00BE35F4 /* W.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCA21887B6C00BE35F4 /* W.wav */; };
+		3935EEA621887B6C00BE35F4 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCB21887B6C00BE35F4 /* A.wav */; };
+		3935EEA721887B6C00BE35F4 /* V.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCC21887B6C00BE35F4 /* V.wav */; };
+		3935EEA821887B6C00BE35F4 /* T.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCD21887B6C00BE35F4 /* T.wav */; };
+		3935EEA921887B6C00BE35F4 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCE21887B6C00BE35F4 /* C.wav */; };
+		3935EEAA21887B6C00BE35F4 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDCF21887B6C00BE35F4 /* B.wav */; };
+		3935EEAB21887B6C00BE35F4 /* U.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD021887B6C00BE35F4 /* U.wav */; };
+		3935EEAC21887B6C00BE35F4 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD121887B6C00BE35F4 /* F.wav */; };
+		3935EEAD21887B6C00BE35F4 /* Q.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD221887B6C00BE35F4 /* Q.wav */; };
+		3935EEAE21887B6C00BE35F4 /* P.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD321887B6C00BE35F4 /* P.wav */; };
+		3935EEAF21887B6C00BE35F4 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD421887B6C00BE35F4 /* G.wav */; };
+		3935EEB021887B6C00BE35F4 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD521887B6C00BE35F4 /* E.wav */; };
+		3935EEB121887B6C00BE35F4 /* R.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD621887B6C00BE35F4 /* R.wav */; };
+		3935EEB221887B6C00BE35F4 /* S.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD721887B6C00BE35F4 /* S.wav */; };
+		3935EEB321887B6C00BE35F4 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3935EDD821887B6C00BE35F4 /* D.wav */; };
+		3935EEBA21887B8100BE35F4 /* ModuleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EEB421887B8000BE35F4 /* ModuleModel.m */; };
+		3935EEBB21887B8100BE35F4 /* SurfaceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EEB621887B8100BE35F4 /* SurfaceModel.m */; };
+		3935EEBC21887B8100BE35F4 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3935EEB721887B8100BE35F4 /* GameModel.m */; };
+		876846F22FE7E6822192FC2F /* libPods-C4X2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BC3117AC8CE285A72557E8 /* libPods-C4X2.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31BC3117AC8CE285A72557E8 /* libPods-C4X2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-C4X2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		390ECBEA218AB5B20031D400 /* SurfaceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SurfaceList.plist; sourceTree = "<group>"; };
+		390ECBEC218ABB9E0031D400 /* Zoe.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Zoe.wav; sourceTree = "<group>"; };
+		390ECBEE218ABBA80031D400 /* Count.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Count.wav; sourceTree = "<group>"; };
+		390ECBF0218ABBB60031D400 /* Bert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bert.wav; sourceTree = "<group>"; };
+		3935EC832188776C00BE35F4 /* C4X2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = C4X2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3935EC862188776C00BE35F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3935EC872188776C00BE35F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3935EC8F2188776D00BE35F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3935EC922188776D00BE35F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3935EC942188776D00BE35F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3935EC952188776D00BE35F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3935ECA1218878D100BE35F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3935ECB121887A7A00BE35F4 /* CatogoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatogoryViewController.m; sourceTree = "<group>"; };
+		3935ECB221887A7A00BE35F4 /* CatogoryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatogoryViewCell.h; sourceTree = "<group>"; };
+		3935ECB321887A7A00BE35F4 /* SurfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurfaceViewController.m; sourceTree = "<group>"; };
+		3935ECB421887A7A00BE35F4 /* LayerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerViewCell.h; sourceTree = "<group>"; };
+		3935ECB521887A7A00BE35F4 /* SurfaceViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurfaceViewCell.m; sourceTree = "<group>"; };
+		3935ECB621887A7A00BE35F4 /* CatogoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatogoryViewController.h; sourceTree = "<group>"; };
+		3935ECB721887A7A00BE35F4 /* SurfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfaceViewController.h; sourceTree = "<group>"; };
+		3935ECB821887A7A00BE35F4 /* CatogoryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatogoryViewCell.m; sourceTree = "<group>"; };
+		3935ECB921887A7A00BE35F4 /* SurfaceViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfaceViewCell.h; sourceTree = "<group>"; };
+		3935ECBA21887A7A00BE35F4 /* LayerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerViewCell.m; sourceTree = "<group>"; };
+		3935ECBC21887A7A00BE35F4 /* ModuleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleViewCell.m; sourceTree = "<group>"; };
+		3935ECBD21887A7A00BE35F4 /* ModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleViewController.h; sourceTree = "<group>"; };
+		3935ECBE21887A7A00BE35F4 /* ModuleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleViewCell.h; sourceTree = "<group>"; };
+		3935ECBF21887A7A00BE35F4 /* ModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleViewController.m; sourceTree = "<group>"; };
+		3935ECC121887A7A00BE35F4 /* DataViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewCell.h; sourceTree = "<group>"; };
+		3935ECC221887A7A00BE35F4 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		3935ECC321887A7A00BE35F4 /* DataViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewCell.m; sourceTree = "<group>"; };
+		3935ECC421887A7A00BE35F4 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		3935ECC621887A7A00BE35F4 /* GameViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewCell.h; sourceTree = "<group>"; };
+		3935ECC721887A7A00BE35F4 /* GameProcessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameProcessCell.m; sourceTree = "<group>"; };
+		3935ECC821887A7A00BE35F4 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		3935ECCA21887A7A00BE35F4 /* StepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepModel.m; sourceTree = "<group>"; };
+		3935ECCB21887A7A00BE35F4 /* FloorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorViewCell.h; sourceTree = "<group>"; };
+		3935ECCC21887A7B00BE35F4 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		3935ECCD21887A7B00BE35F4 /* CustomProcessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomProcessCell.h; sourceTree = "<group>"; };
+		3935ECCE21887A7B00BE35F4 /* ColorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewCell.h; sourceTree = "<group>"; };
+		3935ECCF21887A7B00BE35F4 /* FloorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorViewCell.m; sourceTree = "<group>"; };
+		3935ECD021887A7B00BE35F4 /* StepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepModel.h; sourceTree = "<group>"; };
+		3935ECD121887A7B00BE35F4 /* CustomProcessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomProcessCell.m; sourceTree = "<group>"; };
+		3935ECD221887A7B00BE35F4 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		3935ECD321887A7B00BE35F4 /* ColorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewCell.m; sourceTree = "<group>"; };
+		3935ECD421887A7B00BE35F4 /* GameViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewCell.m; sourceTree = "<group>"; };
+		3935ECD521887A7B00BE35F4 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		3935ECD621887A7B00BE35F4 /* GameProcessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProcessCell.h; sourceTree = "<group>"; };
+		3935ECD821887A7B00BE35F4 /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		3935ECD921887A7B00BE35F4 /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		3935ECEC21887AA400BE35F4 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		3935ECED21887AA400BE35F4 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		3935ECEF21887ACF00BE35F4 /* SendData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendData.h; sourceTree = "<group>"; };
+		3935ECF021887ACF00BE35F4 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		3935ECF121887ACF00BE35F4 /* SendData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendData.m; sourceTree = "<group>"; };
+		3935ECF221887ACF00BE35F4 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		3935ECF621887B6B00BE35F4 /* 考拉.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "考拉.wav"; sourceTree = "<group>"; };
+		3935ECF721887B6B00BE35F4 /* 夜莺.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "夜莺.wav"; sourceTree = "<group>"; };
+		3935ECF821887B6B00BE35F4 /* 田鼠.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "田鼠.wav"; sourceTree = "<group>"; };
+		3935ECF921887B6B00BE35F4 /* 山羊.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "山羊.wav"; sourceTree = "<group>"; };
+		3935ECFA21887B6B00BE35F4 /* 兔子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "兔子.wav"; sourceTree = "<group>"; };
+		3935ECFB21887B6B00BE35F4 /* 北极鸥.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "北极鸥.wav"; sourceTree = "<group>"; };
+		3935ECFC21887B6B00BE35F4 /* 牦牛.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "牦牛.wav"; sourceTree = "<group>"; };
+		3935ECFE21887B6B00BE35F4 /* 水母.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "水母.wav"; sourceTree = "<group>"; };
+		3935ED0121887B6B00BE35F4 /* 斑马.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "斑马.wav"; sourceTree = "<group>"; };
+		3935ED0221887B6B00BE35F4 /* 狐狸.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "狐狸.wav"; sourceTree = "<group>"; };
+		3935ED0321887B6B00BE35F4 /* 猴子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "猴子.wav"; sourceTree = "<group>"; };
+		3935ED0421887B6B00BE35F4 /* 狗.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "狗.wav"; sourceTree = "<group>"; };
+		3935ED0521887B6B00BE35F4 /* 章鱼.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "章鱼.wav"; sourceTree = "<group>"; };
+		3935ED0621887B6B00BE35F4 /* 二趾树懒.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "二趾树懒.wav"; sourceTree = "<group>"; };
+		3935ED0821887B6B00BE35F4 /* 天鹅.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "天鹅.wav"; sourceTree = "<group>"; };
+		3935ED0921887B6B00BE35F4 /* 海狸.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "海狸.wav"; sourceTree = "<group>"; };
+		3935ED0A21887B6B00BE35F4 /* 龟.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "龟.wav"; sourceTree = "<group>"; };
+		3935ED0B21887B6B00BE35F4 /* 短吻鳄.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "短吻鳄.wav"; sourceTree = "<group>"; };
+		3935ED0C21887B6B00BE35F4 /* 鬣鳞蜥.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鬣鳞蜥.wav"; sourceTree = "<group>"; };
+		3935ED0D21887B6B00BE35F4 /* 河马.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "河马.wav"; sourceTree = "<group>"; };
+		3935ED0E21887B6B00BE35F4 /* 鹰.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鹰.wav"; sourceTree = "<group>"; };
+		3935ED0F21887B6B00BE35F4 /* 鹌鹑.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鹌鹑.wav"; sourceTree = "<group>"; };
+		3935ED1221887B6B00BE35F4 /* 猫.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "猫.wav"; sourceTree = "<group>"; };
+		3935ED1321887B6B00BE35F4 /* 狮子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "狮子.wav"; sourceTree = "<group>"; };
+		3935ED1621887B6B00BE35F4 /* 鹦鹉.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鹦鹉.wav"; sourceTree = "<group>"; };
+		3935ED1821887B6B00BE35F4 /* 海象.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "海象.wav"; sourceTree = "<group>"; };
+		3935ED1C21887B6B00BE35F4 /* 再接再厉.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "再接再厉.wav"; sourceTree = "<group>"; };
+		3935ED1D21887B6B00BE35F4 /* OH~NO!.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "OH~NO!.wav"; sourceTree = "<group>"; };
+		3935ED1E21887B6B00BE35F4 /* 嘟嘟错误音效.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "嘟嘟错误音效.wav"; sourceTree = "<group>"; };
+		3935ED1F21887B6B00BE35F4 /* 错误提示.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "错误提示.wav"; sourceTree = "<group>"; };
+		3935ED2021887B6B00BE35F4 /* 加油.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "加油.wav"; sourceTree = "<group>"; };
+		3935ED2121887B6B00BE35F4 /* 太棒了.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "太棒了.wav"; sourceTree = "<group>"; };
+		3935ED2221887B6B00BE35F4 /* 正确提示.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "正确提示.wav"; sourceTree = "<group>"; };
+		3935ED2321887B6B00BE35F4 /* 模式切换按钮的音效.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "模式切换按钮的音效.wav"; sourceTree = "<group>"; };
+		3935ED2421887B6B00BE35F4 /* 很遗憾下次加油哦.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "很遗憾下次加油哦.wav"; sourceTree = "<group>"; };
+		3935ED2521887B6B00BE35F4 /* biu警报声.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "biu警报声.wav"; sourceTree = "<group>"; };
+		3935ED2621887B6B00BE35F4 /* good.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = good.wav; sourceTree = "<group>"; };
+		3935ED2721887B6B00BE35F4 /* 爆炸声音.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "爆炸声音.wav"; sourceTree = "<group>"; };
+		3935ED2821887B6B00BE35F4 /* 峰鸣警报.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "峰鸣警报.wav"; sourceTree = "<group>"; };
+		3935ED2921887B6B00BE35F4 /* 啊哦.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "啊哦.wav"; sourceTree = "<group>"; };
+		3935ED2A21887B6B00BE35F4 /* 你答对了.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "你答对了.wav"; sourceTree = "<group>"; };
+		3935ED2B21887B6B00BE35F4 /* 噔.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "噔.wav"; sourceTree = "<group>"; };
+		3935ED2C21887B6B00BE35F4 /* 你答错了.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "你答错了.wav"; sourceTree = "<group>"; };
+		3935ED2D21887B6B00BE35F4 /* 闯关失败.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "闯关失败.wav"; sourceTree = "<group>"; };
+		3935ED2E21887B6B00BE35F4 /* 哦喔.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "哦喔.wav"; sourceTree = "<group>"; };
+		3935ED3021887B6B00BE35F4 /* 姨丈.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "姨丈.wav"; sourceTree = "<group>"; };
+		3935ED3121887B6B00BE35F4 /* 堂姐.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "堂姐.wav"; sourceTree = "<group>"; };
+		3935ED3221887B6B00BE35F4 /* 表妹.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "表妹.wav"; sourceTree = "<group>"; };
+		3935ED3321887B6B00BE35F4 /* 嫂嫂.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "嫂嫂.wav"; sourceTree = "<group>"; };
+		3935ED3421887B6B00BE35F4 /* 外婆.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "外婆.wav"; sourceTree = "<group>"; };
+		3935ED3521887B6B00BE35F4 /* 姐姐.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "姐姐.wav"; sourceTree = "<group>"; };
+		3935ED3621887B6B00BE35F4 /* 阿姨.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "阿姨.wav"; sourceTree = "<group>"; };
+		3935ED3721887B6B00BE35F4 /* 姐夫.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "姐夫.wav"; sourceTree = "<group>"; };
+		3935ED3821887B6B00BE35F4 /* 表弟.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "表弟.wav"; sourceTree = "<group>"; };
+		3935ED3921887B6B00BE35F4 /* 外公.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "外公.wav"; sourceTree = "<group>"; };
+		3935ED3A21887B6B00BE35F4 /* 舅舅.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "舅舅.wav"; sourceTree = "<group>"; };
+		3935ED3B21887B6B00BE35F4 /* 伯伯.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "伯伯.wav"; sourceTree = "<group>"; };
+		3935ED3C21887B6B00BE35F4 /* 姑姑.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "姑姑.wav"; sourceTree = "<group>"; };
+		3935ED3D21887B6B00BE35F4 /* 堂哥.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "堂哥.wav"; sourceTree = "<group>"; };
+		3935ED3E21887B6B00BE35F4 /* 舅妈.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "舅妈.wav"; sourceTree = "<group>"; };
+		3935ED3F21887B6B00BE35F4 /* 奶奶.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "奶奶.wav"; sourceTree = "<group>"; };
+		3935ED4021887B6B00BE35F4 /* 堂妹.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "堂妹.wav"; sourceTree = "<group>"; };
+		3935ED4121887B6B00BE35F4 /* 姑父.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "姑父.wav"; sourceTree = "<group>"; };
+		3935ED4221887B6C00BE35F4 /* 叔叔.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "叔叔.wav"; sourceTree = "<group>"; };
+		3935ED4321887B6C00BE35F4 /* 哥哥.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "哥哥.wav"; sourceTree = "<group>"; };
+		3935ED4421887B6C00BE35F4 /* 表姐.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "表姐.wav"; sourceTree = "<group>"; };
+		3935ED4521887B6C00BE35F4 /* 表哥.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "表哥.wav"; sourceTree = "<group>"; };
+		3935ED4621887B6C00BE35F4 /* 婶婶.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "婶婶.wav"; sourceTree = "<group>"; };
+		3935ED4721887B6C00BE35F4 /* 堂弟.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "堂弟.wav"; sourceTree = "<group>"; };
+		3935ED4821887B6C00BE35F4 /* 伯母.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "伯母.wav"; sourceTree = "<group>"; };
+		3935ED4921887B6C00BE35F4 /* 爷爷.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "爷爷.wav"; sourceTree = "<group>"; };
+		3935ED4B21887B6C00BE35F4 /* Oscar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Oscar.wav; sourceTree = "<group>"; };
+		3935ED4C21887B6C00BE35F4 /* Elmo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Elmo.wav; sourceTree = "<group>"; };
+		3935ED4D21887B6C00BE35F4 /* Big bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Big bird.wav"; sourceTree = "<group>"; };
+		3935ED4E21887B6C00BE35F4 /* Abby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Abby.wav; sourceTree = "<group>"; };
+		3935ED4F21887B6C00BE35F4 /* Cookie monster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Cookie monster.wav"; sourceTree = "<group>"; };
+		3935ED5021887B6C00BE35F4 /* Ernie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ernie.wav; sourceTree = "<group>"; };
+		3935ED5221887B6C00BE35F4 /* 直升飞机.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "直升飞机.wav"; sourceTree = "<group>"; };
+		3935ED5321887B6C00BE35F4 /* 船.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "船.wav"; sourceTree = "<group>"; };
+		3935ED5421887B6C00BE35F4 /* 摩托车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "摩托车.wav"; sourceTree = "<group>"; };
+		3935ED5521887B6C00BE35F4 /* 热气球.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "热气球.wav"; sourceTree = "<group>"; };
+		3935ED5621887B6C00BE35F4 /* 警车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "警车.wav"; sourceTree = "<group>"; };
+		3935ED5721887B6C00BE35F4 /* 耕田机.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "耕田机.wav"; sourceTree = "<group>"; };
+		3935ED5821887B6C00BE35F4 /* 卡车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "卡车.wav"; sourceTree = "<group>"; };
+		3935ED5921887B6C00BE35F4 /* 潜艇.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "潜艇.wav"; sourceTree = "<group>"; };
+		3935ED5A21887B6C00BE35F4 /* 太空船.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "太空船.wav"; sourceTree = "<group>"; };
+		3935ED5B21887B6C00BE35F4 /* 货船.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "货船.wav"; sourceTree = "<group>"; };
+		3935ED5C21887B6C00BE35F4 /* 泥头车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "泥头车.wav"; sourceTree = "<group>"; };
+		3935ED5D21887B6C00BE35F4 /* 飞机.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "飞机.wav"; sourceTree = "<group>"; };
+		3935ED5E21887B6C00BE35F4 /* 挖掘机.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "挖掘机.wav"; sourceTree = "<group>"; };
+		3935ED5F21887B6C00BE35F4 /* 山地车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "山地车.wav"; sourceTree = "<group>"; };
+		3935ED6021887B6C00BE35F4 /* 自行车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "自行车.wav"; sourceTree = "<group>"; };
+		3935ED6121887B6C00BE35F4 /* 高铁.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "高铁.wav"; sourceTree = "<group>"; };
+		3935ED6221887B6C00BE35F4 /* 救护车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "救护车.wav"; sourceTree = "<group>"; };
+		3935ED6321887B6C00BE35F4 /* 缆车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "缆车.wav"; sourceTree = "<group>"; };
+		3935ED6421887B6C00BE35F4 /* 出租车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "出租车.wav"; sourceTree = "<group>"; };
+		3935ED6521887B6C00BE35F4 /* 校车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "校车.wav"; sourceTree = "<group>"; };
+		3935ED6621887B6C00BE35F4 /* 装甲车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "装甲车.wav"; sourceTree = "<group>"; };
+		3935ED6721887B6C00BE35F4 /* 消防车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "消防车.wav"; sourceTree = "<group>"; };
+		3935ED6821887B6C00BE35F4 /* 轿车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "轿车.wav"; sourceTree = "<group>"; };
+		3935ED6921887B6C00BE35F4 /* 公交车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "公交车.wav"; sourceTree = "<group>"; };
+		3935ED6A21887B6C00BE35F4 /* 货车.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "货车.wav"; sourceTree = "<group>"; };
+		3935ED6B21887B6C00BE35F4 /* 帆船.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "帆船.wav"; sourceTree = "<group>"; };
+		3935ED6D21887B6C00BE35F4 /* 哈密瓜.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "哈密瓜.wav"; sourceTree = "<group>"; };
+		3935ED6E21887B6C00BE35F4 /* 柿子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "柿子.wav"; sourceTree = "<group>"; };
+		3935ED6F21887B6C00BE35F4 /* 释迦.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "释迦.wav"; sourceTree = "<group>"; };
+		3935ED7021887B6C00BE35F4 /* 桃子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "桃子.wav"; sourceTree = "<group>"; };
+		3935ED7121887B6C00BE35F4 /* 百香果.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "百香果.wav"; sourceTree = "<group>"; };
+		3935ED7221887B6C00BE35F4 /* 椰子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "椰子.wav"; sourceTree = "<group>"; };
+		3935ED7321887B6C00BE35F4 /* 无花果.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "无花果.wav"; sourceTree = "<group>"; };
+		3935ED7421887B6C00BE35F4 /* 山竹.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "山竹.wav"; sourceTree = "<group>"; };
+		3935ED7521887B6C00BE35F4 /* 西瓜.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "西瓜.wav"; sourceTree = "<group>"; };
+		3935ED7621887B6C00BE35F4 /* 菠萝.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "菠萝.wav"; sourceTree = "<group>"; };
+		3935ED7721887B6C00BE35F4 /* 柚子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "柚子.wav"; sourceTree = "<group>"; };
+		3935ED7821887B6C00BE35F4 /* 香蕉.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "香蕉.wav"; sourceTree = "<group>"; };
+		3935ED7921887B6C00BE35F4 /* 火龙果.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "火龙果.wav"; sourceTree = "<group>"; };
+		3935ED7A21887B6C00BE35F4 /* 樱桃.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "樱桃.wav"; sourceTree = "<group>"; };
+		3935ED7B21887B6C00BE35F4 /* 蓝莓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "蓝莓.wav"; sourceTree = "<group>"; };
+		3935ED7C21887B6C00BE35F4 /* 香梨.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "香梨.wav"; sourceTree = "<group>"; };
+		3935ED7D21887B6C00BE35F4 /* 葡萄.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "葡萄.wav"; sourceTree = "<group>"; };
+		3935ED7E21887B6C00BE35F4 /* 石榴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "石榴.wav"; sourceTree = "<group>"; };
+		3935ED7F21887B6C00BE35F4 /* 猕猴桃.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "猕猴桃.wav"; sourceTree = "<group>"; };
+		3935ED8021887B6C00BE35F4 /* 芒果.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "芒果.wav"; sourceTree = "<group>"; };
+		3935ED8121887B6C00BE35F4 /* 三华李.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "三华李.wav"; sourceTree = "<group>"; };
+		3935ED8221887B6C00BE35F4 /* 草莓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "草莓.wav"; sourceTree = "<group>"; };
+		3935ED8321887B6C00BE35F4 /* 柠檬.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "柠檬.wav"; sourceTree = "<group>"; };
+		3935ED8421887B6C00BE35F4 /* 苹果.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "苹果.wav"; sourceTree = "<group>"; };
+		3935ED8521887B6C00BE35F4 /* 香橙.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "香橙.wav"; sourceTree = "<group>"; };
+		3935ED8621887B6C00BE35F4 /* 杏子.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "杏子.wav"; sourceTree = "<group>"; };
+		3935ED8921887B6C00BE35F4 /* 16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 16.wav; sourceTree = "<group>"; };
+		3935ED8A21887B6C00BE35F4 /* 17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 17.wav; sourceTree = "<group>"; };
+		3935ED8B21887B6C00BE35F4 /* 15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15.wav; sourceTree = "<group>"; };
+		3935ED8C21887B6C00BE35F4 /* 14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 14.wav; sourceTree = "<group>"; };
+		3935ED8D21887B6C00BE35F4 /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		3935ED8E21887B6C00BE35F4 /* 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11.wav; sourceTree = "<group>"; };
+		3935ED8F21887B6C00BE35F4 /* 13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 13.wav; sourceTree = "<group>"; };
+		3935ED9021887B6C00BE35F4 /* 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12.wav; sourceTree = "<group>"; };
+		3935ED9121887B6C00BE35F4 /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		3935ED9221887B6C00BE35F4 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		3935ED9321887B6C00BE35F4 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		3935ED9421887B6C00BE35F4 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		3935ED9521887B6C00BE35F4 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		3935ED9621887B6C00BE35F4 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		3935ED9721887B6C00BE35F4 /* 0.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 0.wav; sourceTree = "<group>"; };
+		3935ED9821887B6C00BE35F4 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		3935ED9921887B6C00BE35F4 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		3935ED9A21887B6C00BE35F4 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		3935ED9B21887B6C00BE35F4 /* 23.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 23.wav; sourceTree = "<group>"; };
+		3935ED9C21887B6C00BE35F4 /* 22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 22.wav; sourceTree = "<group>"; };
+		3935ED9D21887B6C00BE35F4 /* 20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 20.wav; sourceTree = "<group>"; };
+		3935ED9E21887B6C00BE35F4 /* 21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 21.wav; sourceTree = "<group>"; };
+		3935ED9F21887B6C00BE35F4 /* 19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 19.wav; sourceTree = "<group>"; };
+		3935EDA021887B6C00BE35F4 /* 25.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 25.wav; sourceTree = "<group>"; };
+		3935EDA121887B6C00BE35F4 /* 24.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 24.wav; sourceTree = "<group>"; };
+		3935EDA221887B6C00BE35F4 /* 18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 18.wav; sourceTree = "<group>"; };
+		3935EDA421887B6C00BE35F4 /* 节拍器.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "节拍器.wav"; sourceTree = "<group>"; };
+		3935EDA521887B6C00BE35F4 /* 钢琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "钢琴.wav"; sourceTree = "<group>"; };
+		3935EDA621887B6C00BE35F4 /* 手风琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "手风琴.wav"; sourceTree = "<group>"; };
+		3935EDA721887B6C00BE35F4 /* 鼓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "鼓.wav"; sourceTree = "<group>"; };
+		3935EDA821887B6C00BE35F4 /* 贝斯.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "贝斯.wav"; sourceTree = "<group>"; };
+		3935EDA921887B6C00BE35F4 /* 木琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "木琴.wav"; sourceTree = "<group>"; };
+		3935EDAA21887B6C00BE35F4 /* 排箫.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "排箫.wav"; sourceTree = "<group>"; };
+		3935EDAB21887B6C00BE35F4 /* 手摇铃.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "手摇铃.wav"; sourceTree = "<group>"; };
+		3935EDAC21887B6C00BE35F4 /* 萨克斯管.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "萨克斯管.wav"; sourceTree = "<group>"; };
+		3935EDAD21887B6C00BE35F4 /* 竖琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "竖琴.wav"; sourceTree = "<group>"; };
+		3935EDAE21887B6C00BE35F4 /* 电吉他.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "电吉他.wav"; sourceTree = "<group>"; };
+		3935EDAF21887B6C00BE35F4 /* 非洲手鼓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "非洲手鼓.wav"; sourceTree = "<group>"; };
+		3935EDB021887B6C00BE35F4 /* 口琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "口琴.wav"; sourceTree = "<group>"; };
+		3935EDB121887B6C00BE35F4 /* 琵琶.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "琵琶.wav"; sourceTree = "<group>"; };
+		3935EDB221887B6C00BE35F4 /* 钹.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "钹.wav"; sourceTree = "<group>"; };
+		3935EDB321887B6C00BE35F4 /* 竖笛.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "竖笛.wav"; sourceTree = "<group>"; };
+		3935EDB421887B6C00BE35F4 /* 沙锤.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "沙锤.wav"; sourceTree = "<group>"; };
+		3935EDB521887B6C00BE35F4 /* 小号.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "小号.wav"; sourceTree = "<group>"; };
+		3935EDB621887B6C00BE35F4 /* 吉他.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "吉他.wav"; sourceTree = "<group>"; };
+		3935EDB721887B6C00BE35F4 /* 三角铁.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "三角铁.wav"; sourceTree = "<group>"; };
+		3935EDB821887B6C00BE35F4 /* 小提琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "小提琴.wav"; sourceTree = "<group>"; };
+		3935EDB921887B6C00BE35F4 /* 单簧管.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "单簧管.wav"; sourceTree = "<group>"; };
+		3935EDBA21887B6C00BE35F4 /* 爵士鼓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "爵士鼓.wav"; sourceTree = "<group>"; };
+		3935EDBB21887B6C00BE35F4 /* 康加鼓.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "康加鼓.wav"; sourceTree = "<group>"; };
+		3935EDBC21887B6C00BE35F4 /* 电子琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "电子琴.wav"; sourceTree = "<group>"; };
+		3935EDBD21887B6C00BE35F4 /* 中提琴.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "中提琴.wav"; sourceTree = "<group>"; };
+		3935EDBF21887B6C00BE35F4 /* I.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = I.wav; sourceTree = "<group>"; };
+		3935EDC021887B6C00BE35F4 /* H.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = H.wav; sourceTree = "<group>"; };
+		3935EDC121887B6C00BE35F4 /* J.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = J.wav; sourceTree = "<group>"; };
+		3935EDC221887B6C00BE35F4 /* K.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = K.wav; sourceTree = "<group>"; };
+		3935EDC321887B6C00BE35F4 /* X.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = X.wav; sourceTree = "<group>"; };
+		3935EDC421887B6C00BE35F4 /* O.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = O.wav; sourceTree = "<group>"; };
+		3935EDC521887B6C00BE35F4 /* N.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = N.wav; sourceTree = "<group>"; };
+		3935EDC621887B6C00BE35F4 /* Y.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Y.wav; sourceTree = "<group>"; };
+		3935EDC721887B6C00BE35F4 /* L.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = L.wav; sourceTree = "<group>"; };
+		3935EDC821887B6C00BE35F4 /* M.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = M.wav; sourceTree = "<group>"; };
+		3935EDC921887B6C00BE35F4 /* Z.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Z.wav; sourceTree = "<group>"; };
+		3935EDCA21887B6C00BE35F4 /* W.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = W.wav; sourceTree = "<group>"; };
+		3935EDCB21887B6C00BE35F4 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		3935EDCC21887B6C00BE35F4 /* V.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = V.wav; sourceTree = "<group>"; };
+		3935EDCD21887B6C00BE35F4 /* T.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = T.wav; sourceTree = "<group>"; };
+		3935EDCE21887B6C00BE35F4 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		3935EDCF21887B6C00BE35F4 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		3935EDD021887B6C00BE35F4 /* U.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = U.wav; sourceTree = "<group>"; };
+		3935EDD121887B6C00BE35F4 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		3935EDD221887B6C00BE35F4 /* Q.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Q.wav; sourceTree = "<group>"; };
+		3935EDD321887B6C00BE35F4 /* P.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = P.wav; sourceTree = "<group>"; };
+		3935EDD421887B6C00BE35F4 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		3935EDD521887B6C00BE35F4 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		3935EDD621887B6C00BE35F4 /* R.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = R.wav; sourceTree = "<group>"; };
+		3935EDD721887B6C00BE35F4 /* S.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = S.wav; sourceTree = "<group>"; };
+		3935EDD821887B6C00BE35F4 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		3935EEB421887B8000BE35F4 /* ModuleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleModel.m; sourceTree = "<group>"; };
+		3935EEB521887B8000BE35F4 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		3935EEB621887B8100BE35F4 /* SurfaceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurfaceModel.m; sourceTree = "<group>"; };
+		3935EEB721887B8100BE35F4 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		3935EEB821887B8100BE35F4 /* ModuleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleModel.h; sourceTree = "<group>"; };
+		3935EEB921887B8100BE35F4 /* SurfaceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SurfaceModel.h; sourceTree = "<group>"; };
+		7D767FEAE49F5970C7566FBB /* Pods-C4X2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C4X2.release.xcconfig"; path = "Pods/Target Support Files/Pods-C4X2/Pods-C4X2.release.xcconfig"; sourceTree = "<group>"; };
+		7E02D22AA83C3ABCCB496ECE /* Pods-C4X2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C4X2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-C4X2/Pods-C4X2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3935EC802188776C00BE35F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				876846F22FE7E6822192FC2F /* libPods-C4X2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231E89A930EB978F9BC3CD7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E02D22AA83C3ABCCB496ECE /* Pods-C4X2.debug.xcconfig */,
+				7D767FEAE49F5970C7566FBB /* Pods-C4X2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3935EC7A2188776C00BE35F4 = {
+			isa = PBXGroup;
+			children = (
+				3935EC852188776C00BE35F4 /* C4X2 */,
+				3935EC842188776C00BE35F4 /* Products */,
+				231E89A930EB978F9BC3CD7B /* Pods */,
+				686094C2F5A96B4A9C41076F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3935EC842188776C00BE35F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3935EC832188776C00BE35F4 /* C4X2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3935EC852188776C00BE35F4 /* C4X2 */ = {
+			isa = PBXGroup;
+			children = (
+				390ECBEA218AB5B20031D400 /* SurfaceList.plist */,
+				3935EC9C2188788200BE35F4 /* 资料 */,
+				3935EC9D2188788200BE35F4 /* 数据库 */,
+				3935EC9F2188788200BE35F4 /* 工具 */,
+				3935ECA02188788200BE35F4 /* 基础 */,
+				3935EC9E2188788200BE35F4 /* 界面 */,
+				3935EC862188776C00BE35F4 /* AppDelegate.h */,
+				3935EC872188776C00BE35F4 /* AppDelegate.m */,
+				3935ECA1218878D100BE35F4 /* PrefixHeader.pch */,
+				3935EC8F2188776D00BE35F4 /* Assets.xcassets */,
+				3935EC912188776D00BE35F4 /* LaunchScreen.storyboard */,
+				3935EC942188776D00BE35F4 /* Info.plist */,
+				3935EC952188776D00BE35F4 /* main.m */,
+			);
+			path = C4X2;
+			sourceTree = "<group>";
+		};
+		3935EC9C2188788200BE35F4 /* 资料 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECF521887B6B00BE35F4 /* 动物 */,
+				3935ED4A21887B6C00BE35F4 /* 公仔 */,
+				3935ED5121887B6C00BE35F4 /* 交通工具 */,
+				3935ED2F21887B6B00BE35F4 /* 亲属关系 */,
+				3935EDA321887B6C00BE35F4 /* 声乐器 */,
+				3935ED6C21887B6C00BE35F4 /* 水果 */,
+				3935ED1B21887B6B00BE35F4 /* 音效 */,
+				3935ED8821887B6C00BE35F4 /* 珠心算 */,
+				3935EDBE21887B6C00BE35F4 /* 字母 */,
+			);
+			path = "资料";
+			sourceTree = "<group>";
+		};
+		3935EC9D2188788200BE35F4 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				3935EEB521887B8000BE35F4 /* GameModel.h */,
+				3935EEB721887B8100BE35F4 /* GameModel.m */,
+				3935EEB821887B8100BE35F4 /* ModuleModel.h */,
+				3935EEB421887B8000BE35F4 /* ModuleModel.m */,
+				3935EEB921887B8100BE35F4 /* SurfaceModel.h */,
+				3935EEB621887B8100BE35F4 /* SurfaceModel.m */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		3935EC9E2188788200BE35F4 /* 界面 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECD721887A7B00BE35F4 /* 连接 */,
+				3935ECB021887A7A00BE35F4 /* 面层选择 */,
+				3935ECBB21887A7A00BE35F4 /* 模组设置 */,
+				3935ECC021887A7A00BE35F4 /* 数据显示 */,
+				3935ECC521887A7A00BE35F4 /* 训练课程 */,
+			);
+			path = "界面";
+			sourceTree = "<group>";
+		};
+		3935EC9F2188788200BE35F4 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECEC21887AA400BE35F4 /* Tool.h */,
+				3935ECED21887AA400BE35F4 /* Tool.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		3935ECA02188788200BE35F4 /* 基础 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECF221887ACF00BE35F4 /* NavigationController.h */,
+				3935ECF021887ACF00BE35F4 /* NavigationController.m */,
+				3935ECEF21887ACF00BE35F4 /* SendData.h */,
+				3935ECF121887ACF00BE35F4 /* SendData.m */,
+			);
+			path = "基础";
+			sourceTree = "<group>";
+		};
+		3935ECB021887A7A00BE35F4 /* 面层选择 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECB121887A7A00BE35F4 /* CatogoryViewController.m */,
+				3935ECB221887A7A00BE35F4 /* CatogoryViewCell.h */,
+				3935ECB321887A7A00BE35F4 /* SurfaceViewController.m */,
+				3935ECB421887A7A00BE35F4 /* LayerViewCell.h */,
+				3935ECB521887A7A00BE35F4 /* SurfaceViewCell.m */,
+				3935ECB621887A7A00BE35F4 /* CatogoryViewController.h */,
+				3935ECB721887A7A00BE35F4 /* SurfaceViewController.h */,
+				3935ECB821887A7A00BE35F4 /* CatogoryViewCell.m */,
+				3935ECB921887A7A00BE35F4 /* SurfaceViewCell.h */,
+				3935ECBA21887A7A00BE35F4 /* LayerViewCell.m */,
+			);
+			path = "面层选择";
+			sourceTree = "<group>";
+		};
+		3935ECBB21887A7A00BE35F4 /* 模组设置 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECBC21887A7A00BE35F4 /* ModuleViewCell.m */,
+				3935ECBD21887A7A00BE35F4 /* ModuleViewController.h */,
+				3935ECBE21887A7A00BE35F4 /* ModuleViewCell.h */,
+				3935ECBF21887A7A00BE35F4 /* ModuleViewController.m */,
+			);
+			path = "模组设置";
+			sourceTree = "<group>";
+		};
+		3935ECC021887A7A00BE35F4 /* 数据显示 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECC121887A7A00BE35F4 /* DataViewCell.h */,
+				3935ECC221887A7A00BE35F4 /* DataViewController.m */,
+				3935ECC321887A7A00BE35F4 /* DataViewCell.m */,
+				3935ECC421887A7A00BE35F4 /* DataViewController.h */,
+			);
+			path = "数据显示";
+			sourceTree = "<group>";
+		};
+		3935ECC521887A7A00BE35F4 /* 训练课程 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECC621887A7A00BE35F4 /* GameViewCell.h */,
+				3935ECC721887A7A00BE35F4 /* GameProcessCell.m */,
+				3935ECC821887A7A00BE35F4 /* GameViewController.m */,
+				3935ECD421887A7B00BE35F4 /* GameViewCell.m */,
+				3935ECD521887A7B00BE35F4 /* GameViewController.h */,
+				3935ECD621887A7B00BE35F4 /* GameProcessCell.h */,
+				3935ECC921887A7A00BE35F4 /* 自定义 */,
+			);
+			path = "训练课程";
+			sourceTree = "<group>";
+		};
+		3935ECC921887A7A00BE35F4 /* 自定义 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECCA21887A7A00BE35F4 /* StepModel.m */,
+				3935ECCB21887A7A00BE35F4 /* FloorViewCell.h */,
+				3935ECCC21887A7B00BE35F4 /* CustomViewController.m */,
+				3935ECCD21887A7B00BE35F4 /* CustomProcessCell.h */,
+				3935ECCE21887A7B00BE35F4 /* ColorViewCell.h */,
+				3935ECCF21887A7B00BE35F4 /* FloorViewCell.m */,
+				3935ECD021887A7B00BE35F4 /* StepModel.h */,
+				3935ECD121887A7B00BE35F4 /* CustomProcessCell.m */,
+				3935ECD221887A7B00BE35F4 /* CustomViewController.h */,
+				3935ECD321887A7B00BE35F4 /* ColorViewCell.m */,
+			);
+			path = "自定义";
+			sourceTree = "<group>";
+		};
+		3935ECD721887A7B00BE35F4 /* 连接 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ECD821887A7B00BE35F4 /* ConnectionViewController.h */,
+				3935ECD921887A7B00BE35F4 /* ConnectionViewController.m */,
+			);
+			path = "连接";
+			sourceTree = "<group>";
+		};
+		3935ECF521887B6B00BE35F4 /* 动物 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED0F21887B6B00BE35F4 /* 鹌鹑.wav */,
+				3935ED0121887B6B00BE35F4 /* 斑马.wav */,
+				3935ECFB21887B6B00BE35F4 /* 北极鸥.wav */,
+				3935ED0B21887B6B00BE35F4 /* 短吻鳄.wav */,
+				3935ED0621887B6B00BE35F4 /* 二趾树懒.wav */,
+				3935ED0421887B6B00BE35F4 /* 狗.wav */,
+				3935ED0A21887B6B00BE35F4 /* 龟.wav */,
+				3935ED0921887B6B00BE35F4 /* 海狸.wav */,
+				3935ED1821887B6B00BE35F4 /* 海象.wav */,
+				3935ED0D21887B6B00BE35F4 /* 河马.wav */,
+				3935ED0321887B6B00BE35F4 /* 猴子.wav */,
+				3935ED0221887B6B00BE35F4 /* 狐狸.wav */,
+				3935ECF621887B6B00BE35F4 /* 考拉.wav */,
+				3935ED0C21887B6B00BE35F4 /* 鬣鳞蜥.wav */,
+				3935ED1221887B6B00BE35F4 /* 猫.wav */,
+				3935ECFC21887B6B00BE35F4 /* 牦牛.wav */,
+				3935ECF921887B6B00BE35F4 /* 山羊.wav */,
+				3935ED1321887B6B00BE35F4 /* 狮子.wav */,
+				3935ECFE21887B6B00BE35F4 /* 水母.wav */,
+				3935ECF821887B6B00BE35F4 /* 田鼠.wav */,
+				3935ECFA21887B6B00BE35F4 /* 兔子.wav */,
+				3935ECF721887B6B00BE35F4 /* 夜莺.wav */,
+				3935ED1621887B6B00BE35F4 /* 鹦鹉.wav */,
+				3935ED0E21887B6B00BE35F4 /* 鹰.wav */,
+				3935ED0521887B6B00BE35F4 /* 章鱼.wav */,
+				3935ED0821887B6B00BE35F4 /* 天鹅.wav */,
+			);
+			path = "动物";
+			sourceTree = "<group>";
+		};
+		3935ED1B21887B6B00BE35F4 /* 音效 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED1C21887B6B00BE35F4 /* 再接再厉.wav */,
+				3935ED1D21887B6B00BE35F4 /* OH~NO!.wav */,
+				3935ED1E21887B6B00BE35F4 /* 嘟嘟错误音效.wav */,
+				3935ED1F21887B6B00BE35F4 /* 错误提示.wav */,
+				3935ED2021887B6B00BE35F4 /* 加油.wav */,
+				3935ED2121887B6B00BE35F4 /* 太棒了.wav */,
+				3935ED2221887B6B00BE35F4 /* 正确提示.wav */,
+				3935ED2321887B6B00BE35F4 /* 模式切换按钮的音效.wav */,
+				3935ED2421887B6B00BE35F4 /* 很遗憾下次加油哦.wav */,
+				3935ED2521887B6B00BE35F4 /* biu警报声.wav */,
+				3935ED2621887B6B00BE35F4 /* good.wav */,
+				3935ED2721887B6B00BE35F4 /* 爆炸声音.wav */,
+				3935ED2821887B6B00BE35F4 /* 峰鸣警报.wav */,
+				3935ED2921887B6B00BE35F4 /* 啊哦.wav */,
+				3935ED2A21887B6B00BE35F4 /* 你答对了.wav */,
+				3935ED2B21887B6B00BE35F4 /* 噔.wav */,
+				3935ED2C21887B6B00BE35F4 /* 你答错了.wav */,
+				3935ED2D21887B6B00BE35F4 /* 闯关失败.wav */,
+				3935ED2E21887B6B00BE35F4 /* 哦喔.wav */,
+			);
+			path = "音效";
+			sourceTree = "<group>";
+		};
+		3935ED2F21887B6B00BE35F4 /* 亲属关系 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED3021887B6B00BE35F4 /* 姨丈.wav */,
+				3935ED3121887B6B00BE35F4 /* 堂姐.wav */,
+				3935ED3221887B6B00BE35F4 /* 表妹.wav */,
+				3935ED3321887B6B00BE35F4 /* 嫂嫂.wav */,
+				3935ED3421887B6B00BE35F4 /* 外婆.wav */,
+				3935ED3521887B6B00BE35F4 /* 姐姐.wav */,
+				3935ED3621887B6B00BE35F4 /* 阿姨.wav */,
+				3935ED3721887B6B00BE35F4 /* 姐夫.wav */,
+				3935ED3821887B6B00BE35F4 /* 表弟.wav */,
+				3935ED3921887B6B00BE35F4 /* 外公.wav */,
+				3935ED3A21887B6B00BE35F4 /* 舅舅.wav */,
+				3935ED3B21887B6B00BE35F4 /* 伯伯.wav */,
+				3935ED3C21887B6B00BE35F4 /* 姑姑.wav */,
+				3935ED3D21887B6B00BE35F4 /* 堂哥.wav */,
+				3935ED3E21887B6B00BE35F4 /* 舅妈.wav */,
+				3935ED3F21887B6B00BE35F4 /* 奶奶.wav */,
+				3935ED4021887B6B00BE35F4 /* 堂妹.wav */,
+				3935ED4121887B6B00BE35F4 /* 姑父.wav */,
+				3935ED4221887B6C00BE35F4 /* 叔叔.wav */,
+				3935ED4321887B6C00BE35F4 /* 哥哥.wav */,
+				3935ED4421887B6C00BE35F4 /* 表姐.wav */,
+				3935ED4521887B6C00BE35F4 /* 表哥.wav */,
+				3935ED4621887B6C00BE35F4 /* 婶婶.wav */,
+				3935ED4721887B6C00BE35F4 /* 堂弟.wav */,
+				3935ED4821887B6C00BE35F4 /* 伯母.wav */,
+				3935ED4921887B6C00BE35F4 /* 爷爷.wav */,
+			);
+			path = "亲属关系";
+			sourceTree = "<group>";
+		};
+		3935ED4A21887B6C00BE35F4 /* 公仔 */ = {
+			isa = PBXGroup;
+			children = (
+				390ECBEC218ABB9E0031D400 /* Zoe.wav */,
+				3935ED4B21887B6C00BE35F4 /* Oscar.wav */,
+				390ECBF0218ABBB60031D400 /* Bert.wav */,
+				390ECBEE218ABBA80031D400 /* Count.wav */,
+				3935ED4C21887B6C00BE35F4 /* Elmo.wav */,
+				3935ED4D21887B6C00BE35F4 /* Big bird.wav */,
+				3935ED4E21887B6C00BE35F4 /* Abby.wav */,
+				3935ED4F21887B6C00BE35F4 /* Cookie monster.wav */,
+				3935ED5021887B6C00BE35F4 /* Ernie.wav */,
+			);
+			path = "公仔";
+			sourceTree = "<group>";
+		};
+		3935ED5121887B6C00BE35F4 /* 交通工具 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED5221887B6C00BE35F4 /* 直升飞机.wav */,
+				3935ED5321887B6C00BE35F4 /* 船.wav */,
+				3935ED5421887B6C00BE35F4 /* 摩托车.wav */,
+				3935ED5521887B6C00BE35F4 /* 热气球.wav */,
+				3935ED5621887B6C00BE35F4 /* 警车.wav */,
+				3935ED5721887B6C00BE35F4 /* 耕田机.wav */,
+				3935ED5821887B6C00BE35F4 /* 卡车.wav */,
+				3935ED5921887B6C00BE35F4 /* 潜艇.wav */,
+				3935ED5A21887B6C00BE35F4 /* 太空船.wav */,
+				3935ED5B21887B6C00BE35F4 /* 货船.wav */,
+				3935ED5C21887B6C00BE35F4 /* 泥头车.wav */,
+				3935ED5D21887B6C00BE35F4 /* 飞机.wav */,
+				3935ED5E21887B6C00BE35F4 /* 挖掘机.wav */,
+				3935ED5F21887B6C00BE35F4 /* 山地车.wav */,
+				3935ED6021887B6C00BE35F4 /* 自行车.wav */,
+				3935ED6121887B6C00BE35F4 /* 高铁.wav */,
+				3935ED6221887B6C00BE35F4 /* 救护车.wav */,
+				3935ED6321887B6C00BE35F4 /* 缆车.wav */,
+				3935ED6421887B6C00BE35F4 /* 出租车.wav */,
+				3935ED6521887B6C00BE35F4 /* 校车.wav */,
+				3935ED6621887B6C00BE35F4 /* 装甲车.wav */,
+				3935ED6721887B6C00BE35F4 /* 消防车.wav */,
+				3935ED6821887B6C00BE35F4 /* 轿车.wav */,
+				3935ED6921887B6C00BE35F4 /* 公交车.wav */,
+				3935ED6A21887B6C00BE35F4 /* 货车.wav */,
+				3935ED6B21887B6C00BE35F4 /* 帆船.wav */,
+			);
+			path = "交通工具";
+			sourceTree = "<group>";
+		};
+		3935ED6C21887B6C00BE35F4 /* 水果 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED6D21887B6C00BE35F4 /* 哈密瓜.wav */,
+				3935ED6E21887B6C00BE35F4 /* 柿子.wav */,
+				3935ED6F21887B6C00BE35F4 /* 释迦.wav */,
+				3935ED7021887B6C00BE35F4 /* 桃子.wav */,
+				3935ED7121887B6C00BE35F4 /* 百香果.wav */,
+				3935ED7221887B6C00BE35F4 /* 椰子.wav */,
+				3935ED7321887B6C00BE35F4 /* 无花果.wav */,
+				3935ED7421887B6C00BE35F4 /* 山竹.wav */,
+				3935ED7521887B6C00BE35F4 /* 西瓜.wav */,
+				3935ED7621887B6C00BE35F4 /* 菠萝.wav */,
+				3935ED7721887B6C00BE35F4 /* 柚子.wav */,
+				3935ED7821887B6C00BE35F4 /* 香蕉.wav */,
+				3935ED7921887B6C00BE35F4 /* 火龙果.wav */,
+				3935ED7A21887B6C00BE35F4 /* 樱桃.wav */,
+				3935ED7B21887B6C00BE35F4 /* 蓝莓.wav */,
+				3935ED7C21887B6C00BE35F4 /* 香梨.wav */,
+				3935ED7D21887B6C00BE35F4 /* 葡萄.wav */,
+				3935ED7E21887B6C00BE35F4 /* 石榴.wav */,
+				3935ED7F21887B6C00BE35F4 /* 猕猴桃.wav */,
+				3935ED8021887B6C00BE35F4 /* 芒果.wav */,
+				3935ED8121887B6C00BE35F4 /* 三华李.wav */,
+				3935ED8221887B6C00BE35F4 /* 草莓.wav */,
+				3935ED8321887B6C00BE35F4 /* 柠檬.wav */,
+				3935ED8421887B6C00BE35F4 /* 苹果.wav */,
+				3935ED8521887B6C00BE35F4 /* 香橙.wav */,
+				3935ED8621887B6C00BE35F4 /* 杏子.wav */,
+			);
+			path = "水果";
+			sourceTree = "<group>";
+		};
+		3935ED8821887B6C00BE35F4 /* 珠心算 */ = {
+			isa = PBXGroup;
+			children = (
+				3935ED8921887B6C00BE35F4 /* 16.wav */,
+				3935ED8A21887B6C00BE35F4 /* 17.wav */,
+				3935ED8B21887B6C00BE35F4 /* 15.wav */,
+				3935ED8C21887B6C00BE35F4 /* 14.wav */,
+				3935ED8D21887B6C00BE35F4 /* 10.wav */,
+				3935ED8E21887B6C00BE35F4 /* 11.wav */,
+				3935ED8F21887B6C00BE35F4 /* 13.wav */,
+				3935ED9021887B6C00BE35F4 /* 12.wav */,
+				3935ED9121887B6C00BE35F4 /* 9.wav */,
+				3935ED9221887B6C00BE35F4 /* 8.wav */,
+				3935ED9321887B6C00BE35F4 /* 6.wav */,
+				3935ED9421887B6C00BE35F4 /* 7.wav */,
+				3935ED9521887B6C00BE35F4 /* 5.wav */,
+				3935ED9621887B6C00BE35F4 /* 4.wav */,
+				3935ED9721887B6C00BE35F4 /* 0.wav */,
+				3935ED9821887B6C00BE35F4 /* 1.wav */,
+				3935ED9921887B6C00BE35F4 /* 3.wav */,
+				3935ED9A21887B6C00BE35F4 /* 2.wav */,
+				3935ED9B21887B6C00BE35F4 /* 23.wav */,
+				3935ED9C21887B6C00BE35F4 /* 22.wav */,
+				3935ED9D21887B6C00BE35F4 /* 20.wav */,
+				3935ED9E21887B6C00BE35F4 /* 21.wav */,
+				3935ED9F21887B6C00BE35F4 /* 19.wav */,
+				3935EDA021887B6C00BE35F4 /* 25.wav */,
+				3935EDA121887B6C00BE35F4 /* 24.wav */,
+				3935EDA221887B6C00BE35F4 /* 18.wav */,
+			);
+			path = "珠心算";
+			sourceTree = "<group>";
+		};
+		3935EDA321887B6C00BE35F4 /* 声乐器 */ = {
+			isa = PBXGroup;
+			children = (
+				3935EDA421887B6C00BE35F4 /* 节拍器.wav */,
+				3935EDA521887B6C00BE35F4 /* 钢琴.wav */,
+				3935EDA621887B6C00BE35F4 /* 手风琴.wav */,
+				3935EDA721887B6C00BE35F4 /* 鼓.wav */,
+				3935EDA821887B6C00BE35F4 /* 贝斯.wav */,
+				3935EDA921887B6C00BE35F4 /* 木琴.wav */,
+				3935EDAA21887B6C00BE35F4 /* 排箫.wav */,
+				3935EDAB21887B6C00BE35F4 /* 手摇铃.wav */,
+				3935EDAC21887B6C00BE35F4 /* 萨克斯管.wav */,
+				3935EDAD21887B6C00BE35F4 /* 竖琴.wav */,
+				3935EDAE21887B6C00BE35F4 /* 电吉他.wav */,
+				3935EDAF21887B6C00BE35F4 /* 非洲手鼓.wav */,
+				3935EDB021887B6C00BE35F4 /* 口琴.wav */,
+				3935EDB121887B6C00BE35F4 /* 琵琶.wav */,
+				3935EDB221887B6C00BE35F4 /* 钹.wav */,
+				3935EDB321887B6C00BE35F4 /* 竖笛.wav */,
+				3935EDB421887B6C00BE35F4 /* 沙锤.wav */,
+				3935EDB521887B6C00BE35F4 /* 小号.wav */,
+				3935EDB621887B6C00BE35F4 /* 吉他.wav */,
+				3935EDB721887B6C00BE35F4 /* 三角铁.wav */,
+				3935EDB821887B6C00BE35F4 /* 小提琴.wav */,
+				3935EDB921887B6C00BE35F4 /* 单簧管.wav */,
+				3935EDBA21887B6C00BE35F4 /* 爵士鼓.wav */,
+				3935EDBB21887B6C00BE35F4 /* 康加鼓.wav */,
+				3935EDBC21887B6C00BE35F4 /* 电子琴.wav */,
+				3935EDBD21887B6C00BE35F4 /* 中提琴.wav */,
+			);
+			path = "声乐器";
+			sourceTree = "<group>";
+		};
+		3935EDBE21887B6C00BE35F4 /* 字母 */ = {
+			isa = PBXGroup;
+			children = (
+				3935EDBF21887B6C00BE35F4 /* I.wav */,
+				3935EDC021887B6C00BE35F4 /* H.wav */,
+				3935EDC121887B6C00BE35F4 /* J.wav */,
+				3935EDC221887B6C00BE35F4 /* K.wav */,
+				3935EDC321887B6C00BE35F4 /* X.wav */,
+				3935EDC421887B6C00BE35F4 /* O.wav */,
+				3935EDC521887B6C00BE35F4 /* N.wav */,
+				3935EDC621887B6C00BE35F4 /* Y.wav */,
+				3935EDC721887B6C00BE35F4 /* L.wav */,
+				3935EDC821887B6C00BE35F4 /* M.wav */,
+				3935EDC921887B6C00BE35F4 /* Z.wav */,
+				3935EDCA21887B6C00BE35F4 /* W.wav */,
+				3935EDCB21887B6C00BE35F4 /* A.wav */,
+				3935EDCC21887B6C00BE35F4 /* V.wav */,
+				3935EDCD21887B6C00BE35F4 /* T.wav */,
+				3935EDCE21887B6C00BE35F4 /* C.wav */,
+				3935EDCF21887B6C00BE35F4 /* B.wav */,
+				3935EDD021887B6C00BE35F4 /* U.wav */,
+				3935EDD121887B6C00BE35F4 /* F.wav */,
+				3935EDD221887B6C00BE35F4 /* Q.wav */,
+				3935EDD321887B6C00BE35F4 /* P.wav */,
+				3935EDD421887B6C00BE35F4 /* G.wav */,
+				3935EDD521887B6C00BE35F4 /* E.wav */,
+				3935EDD621887B6C00BE35F4 /* R.wav */,
+				3935EDD721887B6C00BE35F4 /* S.wav */,
+				3935EDD821887B6C00BE35F4 /* D.wav */,
+			);
+			path = "字母";
+			sourceTree = "<group>";
+		};
+		686094C2F5A96B4A9C41076F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BC3117AC8CE285A72557E8 /* libPods-C4X2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3935EC822188776C00BE35F4 /* C4X2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3935EC992188776D00BE35F4 /* Build configuration list for PBXNativeTarget "C4X2" */;
+			buildPhases = (
+				EA26C55A9EFE0395A4A9F707 /* [CP] Check Pods Manifest.lock */,
+				3935EC7F2188776C00BE35F4 /* Sources */,
+				3935EC802188776C00BE35F4 /* Frameworks */,
+				3935EC812188776C00BE35F4 /* Resources */,
+				A162583C3A103C585B4B5E58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = C4X2;
+			productName = C4X2;
+			productReference = 3935EC832188776C00BE35F4 /* C4X2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3935EC7B2188776C00BE35F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Hinwa;
+				TargetAttributes = {
+					3935EC822188776C00BE35F4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3935EC7E2188776C00BE35F4 /* Build configuration list for PBXProject "C4X2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3935EC7A2188776C00BE35F4;
+			productRefGroup = 3935EC842188776C00BE35F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3935EC822188776C00BE35F4 /* C4X2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3935EC812188776C00BE35F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935EE8721887B6C00BE35F4 /* 手摇铃.wav in Resources */,
+				3935EE8221887B6C00BE35F4 /* 手风琴.wav in Resources */,
+				3935EE7E21887B6C00BE35F4 /* 24.wav in Resources */,
+				3935EE6C21887B6C00BE35F4 /* 13.wav in Resources */,
+				3935EE5821887B6C00BE35F4 /* 樱桃.wav in Resources */,
+				3935EE5721887B6C00BE35F4 /* 火龙果.wav in Resources */,
+				3935EE1721887B6C00BE35F4 /* 阿姨.wav in Resources */,
+				3935EE0621887B6C00BE35F4 /* 很遗憾下次加油哦.wav in Resources */,
+				3935EE9421887B6C00BE35F4 /* 小提琴.wav in Resources */,
+				3935EE4F21887B6C00BE35F4 /* 百香果.wav in Resources */,
+				3935EE8821887B6C00BE35F4 /* 萨克斯管.wav in Resources */,
+				3935EEAF21887B6C00BE35F4 /* G.wav in Resources */,
+				3935EE0321887B6C00BE35F4 /* 太棒了.wav in Resources */,
+				3935EE0921887B6C00BE35F4 /* 爆炸声音.wav in Resources */,
+				3935EE3121887B6C00BE35F4 /* 直升飞机.wav in Resources */,
+				3935EE8C21887B6C00BE35F4 /* 口琴.wav in Resources */,
+				3935EEA821887B6C00BE35F4 /* T.wav in Resources */,
+				3935EE9F21887B6C00BE35F4 /* O.wav in Resources */,
+				3935EE4E21887B6C00BE35F4 /* 桃子.wav in Resources */,
+				3935EDF921887B6C00BE35F4 /* 鹦鹉.wav in Resources */,
+				3935EE8A21887B6C00BE35F4 /* 电吉他.wav in Resources */,
+				3935EE6721887B6C00BE35F4 /* 17.wav in Resources */,
+				3935EE7F21887B6C00BE35F4 /* 18.wav in Resources */,
+				3935EE1421887B6C00BE35F4 /* 嫂嫂.wav in Resources */,
+				3935EE3821887B6C00BE35F4 /* 潜艇.wav in Resources */,
+				3935EE9221887B6C00BE35F4 /* 吉他.wav in Resources */,
+				3935EEA521887B6C00BE35F4 /* W.wav in Resources */,
+				3935EE5321887B6C00BE35F4 /* 西瓜.wav in Resources */,
+				3935EDFF21887B6C00BE35F4 /* OH~NO!.wav in Resources */,
+				3935EDF621887B6C00BE35F4 /* 狮子.wav in Resources */,
+				3935EE1B21887B6C00BE35F4 /* 舅舅.wav in Resources */,
+				3935EE7721887B6C00BE35F4 /* 2.wav in Resources */,
+				3935EDE521887B6C00BE35F4 /* 狐狸.wav in Resources */,
+				3935EE2E21887B6C00BE35F4 /* Abby.wav in Resources */,
+				3935EE5B21887B6C00BE35F4 /* 葡萄.wav in Resources */,
+				3935EE7C21887B6C00BE35F4 /* 19.wav in Resources */,
+				3935EE2921887B6C00BE35F4 /* 伯母.wav in Resources */,
+				3935EDDE21887B6C00BE35F4 /* 北极鸥.wav in Resources */,
+				3935EE2C21887B6C00BE35F4 /* Elmo.wav in Resources */,
+				3935EE0721887B6C00BE35F4 /* biu警报声.wav in Resources */,
+				3935EE0D21887B6C00BE35F4 /* 噔.wav in Resources */,
+				3935EE4921887B6C00BE35F4 /* 货车.wav in Resources */,
+				3935EE2621887B6C00BE35F4 /* 表哥.wav in Resources */,
+				3935EDF121887B6C00BE35F4 /* 鹰.wav in Resources */,
+				3935EE3C21887B6C00BE35F4 /* 飞机.wav in Resources */,
+				3935EDED21887B6C00BE35F4 /* 龟.wav in Resources */,
+				3935EEA221887B6C00BE35F4 /* L.wav in Resources */,
+				3935EE6821887B6C00BE35F4 /* 15.wav in Resources */,
+				3935EEAC21887B6C00BE35F4 /* F.wav in Resources */,
+				3935EE1321887B6C00BE35F4 /* 表妹.wav in Resources */,
+				3935EE0121887B6C00BE35F4 /* 错误提示.wav in Resources */,
+				3935EE5D21887B6C00BE35F4 /* 猕猴桃.wav in Resources */,
+				390ECBEB218AB5B20031D400 /* SurfaceList.plist in Resources */,
+				3935EE0A21887B6C00BE35F4 /* 峰鸣警报.wav in Resources */,
+				3935EDE721887B6C00BE35F4 /* 狗.wav in Resources */,
+				3935EE3D21887B6C00BE35F4 /* 挖掘机.wav in Resources */,
+				3935EEA921887B6C00BE35F4 /* C.wav in Resources */,
+				3935EE2321887B6C00BE35F4 /* 叔叔.wav in Resources */,
+				3935EE1521887B6C00BE35F4 /* 外婆.wav in Resources */,
+				3935EEB121887B6C00BE35F4 /* R.wav in Resources */,
+				3935EE0221887B6C00BE35F4 /* 加油.wav in Resources */,
+				3935EE9621887B6C00BE35F4 /* 爵士鼓.wav in Resources */,
+				3935EE2D21887B6C00BE35F4 /* Big bird.wav in Resources */,
+				3935EE7B21887B6C00BE35F4 /* 21.wav in Resources */,
+				3935EDDD21887B6C00BE35F4 /* 兔子.wav in Resources */,
+				3935EE3021887B6C00BE35F4 /* Ernie.wav in Resources */,
+				3935EE1121887B6C00BE35F4 /* 姨丈.wav in Resources */,
+				3935EE4521887B6C00BE35F4 /* 装甲车.wav in Resources */,
+				3935EEB021887B6C00BE35F4 /* E.wav in Resources */,
+				3935EE6A21887B6C00BE35F4 /* 10.wav in Resources */,
+				3935EE4D21887B6C00BE35F4 /* 释迦.wav in Resources */,
+				3935EDDB21887B6C00BE35F4 /* 田鼠.wav in Resources */,
+				3935EDE921887B6C00BE35F4 /* 二趾树懒.wav in Resources */,
+				3935EE7D21887B6C00BE35F4 /* 25.wav in Resources */,
+				3935EE1F21887B6C00BE35F4 /* 舅妈.wav in Resources */,
+				3935EE7121887B6C00BE35F4 /* 7.wav in Resources */,
+				3935EE5A21887B6C00BE35F4 /* 香梨.wav in Resources */,
+				3935EE7421887B6C00BE35F4 /* 0.wav in Resources */,
+				3935EE2021887B6C00BE35F4 /* 奶奶.wav in Resources */,
+				3935EE1D21887B6C00BE35F4 /* 姑姑.wav in Resources */,
+				3935EE9121887B6C00BE35F4 /* 小号.wav in Resources */,
+				3935EEA721887B6C00BE35F4 /* V.wav in Resources */,
+				3935EEAE21887B6C00BE35F4 /* P.wav in Resources */,
+				3935EE7921887B6C00BE35F4 /* 22.wav in Resources */,
+				3935EE3E21887B6C00BE35F4 /* 山地车.wav in Resources */,
+				3935EE6B21887B6C00BE35F4 /* 11.wav in Resources */,
+				3935EE0B21887B6C00BE35F4 /* 啊哦.wav in Resources */,
+				3935EE3521887B6C00BE35F4 /* 警车.wav in Resources */,
+				3935EE0E21887B6C00BE35F4 /* 你答错了.wav in Resources */,
+				3935EE9321887B6C00BE35F4 /* 三角铁.wav in Resources */,
+				3935EE1C21887B6C00BE35F4 /* 伯伯.wav in Resources */,
+				3935EE2721887B6C00BE35F4 /* 婶婶.wav in Resources */,
+				3935EDE821887B6C00BE35F4 /* 章鱼.wav in Resources */,
+				3935EE1E21887B6C00BE35F4 /* 堂哥.wav in Resources */,
+				3935EE8E21887B6C00BE35F4 /* 钹.wav in Resources */,
+				3935EE9021887B6C00BE35F4 /* 沙锤.wav in Resources */,
+				3935EE0021887B6C00BE35F4 /* 嘟嘟错误音效.wav in Resources */,
+				3935EE5E21887B6C00BE35F4 /* 芒果.wav in Resources */,
+				3935EDDF21887B6C00BE35F4 /* 牦牛.wav in Resources */,
+				390ECBED218ABB9E0031D400 /* Zoe.wav in Resources */,
+				3935EE1621887B6C00BE35F4 /* 姐姐.wav in Resources */,
+				3935EEB321887B6C00BE35F4 /* D.wav in Resources */,
+				3935EE9A21887B6C00BE35F4 /* I.wav in Resources */,
+				3935EE1021887B6C00BE35F4 /* 哦喔.wav in Resources */,
+				3935EE6921887B6C00BE35F4 /* 14.wav in Resources */,
+				3935EE8021887B6C00BE35F4 /* 节拍器.wav in Resources */,
+				390ECBEF218ABBA90031D400 /* Count.wav in Resources */,
+				3935EDE621887B6C00BE35F4 /* 猴子.wav in Resources */,
+				3935EE9C21887B6C00BE35F4 /* J.wav in Resources */,
+				3935EE7A21887B6C00BE35F4 /* 20.wav in Resources */,
+				3935EDEF21887B6C00BE35F4 /* 鬣鳞蜥.wav in Resources */,
+				3935EDF021887B6C00BE35F4 /* 河马.wav in Resources */,
+				3935EDDA21887B6C00BE35F4 /* 夜莺.wav in Resources */,
+				3935EE2B21887B6C00BE35F4 /* Oscar.wav in Resources */,
+				3935EE6221887B6C00BE35F4 /* 苹果.wav in Resources */,
+				3935EDEB21887B6C00BE35F4 /* 天鹅.wav in Resources */,
+				3935EE3421887B6C00BE35F4 /* 热气球.wav in Resources */,
+				3935EE1921887B6C00BE35F4 /* 表弟.wav in Resources */,
+				3935EE4621887B6C00BE35F4 /* 消防车.wav in Resources */,
+				3935EEAB21887B6C00BE35F4 /* U.wav in Resources */,
+				3935EE5121887B6C00BE35F4 /* 无花果.wav in Resources */,
+				3935EE3921887B6C00BE35F4 /* 太空船.wav in Resources */,
+				3935EE5521887B6C00BE35F4 /* 柚子.wav in Resources */,
+				3935EE4821887B6C00BE35F4 /* 公交车.wav in Resources */,
+				3935EDEE21887B6C00BE35F4 /* 短吻鳄.wav in Resources */,
+				3935EE2421887B6C00BE35F4 /* 哥哥.wav in Resources */,
+				3935EE4A21887B6C00BE35F4 /* 帆船.wav in Resources */,
+				3935EE3221887B6C00BE35F4 /* 船.wav in Resources */,
+				3935EE9921887B6C00BE35F4 /* 中提琴.wav in Resources */,
+				3935EEB221887B6C00BE35F4 /* S.wav in Resources */,
+				3935EDE121887B6C00BE35F4 /* 水母.wav in Resources */,
+				3935EE9B21887B6C00BE35F4 /* H.wav in Resources */,
+				3935EE3621887B6C00BE35F4 /* 耕田机.wav in Resources */,
+				3935EE9721887B6C00BE35F4 /* 康加鼓.wav in Resources */,
+				3935EE1221887B6C00BE35F4 /* 堂姐.wav in Resources */,
+				3935EE2221887B6C00BE35F4 /* 姑父.wav in Resources */,
+				3935EE8F21887B6C00BE35F4 /* 竖笛.wav in Resources */,
+				3935EE8621887B6C00BE35F4 /* 排箫.wav in Resources */,
+				3935EDEC21887B6C00BE35F4 /* 海狸.wav in Resources */,
+				3935EE0821887B6C00BE35F4 /* good.wav in Resources */,
+				3935EE7221887B6C00BE35F4 /* 5.wav in Resources */,
+				3935EDFE21887B6C00BE35F4 /* 再接再厉.wav in Resources */,
+				390ECBF1218ABBB70031D400 /* Bert.wav in Resources */,
+				3935EE7521887B6C00BE35F4 /* 1.wav in Resources */,
+				3935EE5F21887B6C00BE35F4 /* 三华李.wav in Resources */,
+				3935EE7321887B6C00BE35F4 /* 4.wav in Resources */,
+				3935EE4121887B6C00BE35F4 /* 救护车.wav in Resources */,
+				3935EE9D21887B6C00BE35F4 /* K.wav in Resources */,
+				3935EE4321887B6C00BE35F4 /* 出租车.wav in Resources */,
+				3935EE8121887B6C00BE35F4 /* 钢琴.wav in Resources */,
+				3935EEA421887B6C00BE35F4 /* Z.wav in Resources */,
+				3935EE2A21887B6C00BE35F4 /* 爷爷.wav in Resources */,
+				3935EEA621887B6C00BE35F4 /* A.wav in Resources */,
+				3935EE3B21887B6C00BE35F4 /* 泥头车.wav in Resources */,
+				3935EE3F21887B6C00BE35F4 /* 自行车.wav in Resources */,
+				3935EDFB21887B6C00BE35F4 /* 海象.wav in Resources */,
+				3935EE9821887B6C00BE35F4 /* 电子琴.wav in Resources */,
+				3935EE4421887B6C00BE35F4 /* 校车.wav in Resources */,
+				3935EE7621887B6C00BE35F4 /* 3.wav in Resources */,
+				3935EE6621887B6C00BE35F4 /* 16.wav in Resources */,
+				3935EE0F21887B6C00BE35F4 /* 闯关失败.wav in Resources */,
+				3935EE6121887B6C00BE35F4 /* 柠檬.wav in Resources */,
+				3935EE7821887B6C00BE35F4 /* 23.wav in Resources */,
+				3935EE5221887B6C00BE35F4 /* 山竹.wav in Resources */,
+				3935EE3721887B6C00BE35F4 /* 卡车.wav in Resources */,
+				3935EE5621887B6C00BE35F4 /* 香蕉.wav in Resources */,
+				3935EE8521887B6C00BE35F4 /* 木琴.wav in Resources */,
+				3935EEAD21887B6C00BE35F4 /* Q.wav in Resources */,
+				3935EE2121887B6C00BE35F4 /* 堂妹.wav in Resources */,
+				3935EE2F21887B6C00BE35F4 /* Cookie monster.wav in Resources */,
+				3935EE8D21887B6C00BE35F4 /* 琵琶.wav in Resources */,
+				3935EE8B21887B6C00BE35F4 /* 非洲手鼓.wav in Resources */,
+				3935EE5021887B6C00BE35F4 /* 椰子.wav in Resources */,
+				3935EEA021887B6C00BE35F4 /* N.wav in Resources */,
+				3935EE7021887B6C00BE35F4 /* 6.wav in Resources */,
+				3935EC932188776D00BE35F4 /* LaunchScreen.storyboard in Resources */,
+				3935EE4C21887B6C00BE35F4 /* 柿子.wav in Resources */,
+				3935EDDC21887B6C00BE35F4 /* 山羊.wav in Resources */,
+				3935EE0421887B6C00BE35F4 /* 正确提示.wav in Resources */,
+				3935EDF221887B6C00BE35F4 /* 鹌鹑.wav in Resources */,
+				3935EEA121887B6C00BE35F4 /* Y.wav in Resources */,
+				3935EC902188776D00BE35F4 /* Assets.xcassets in Resources */,
+				3935EE1A21887B6C00BE35F4 /* 外公.wav in Resources */,
+				3935EE6321887B6C00BE35F4 /* 香橙.wav in Resources */,
+				3935EE6E21887B6C00BE35F4 /* 9.wav in Resources */,
+				3935EE3A21887B6C00BE35F4 /* 货船.wav in Resources */,
+				3935EE5921887B6C00BE35F4 /* 蓝莓.wav in Resources */,
+				3935EE0521887B6C00BE35F4 /* 模式切换按钮的音效.wav in Resources */,
+				3935EE2821887B6C00BE35F4 /* 堂弟.wav in Resources */,
+				3935EE9E21887B6C00BE35F4 /* X.wav in Resources */,
+				3935EE6421887B6C00BE35F4 /* 杏子.wav in Resources */,
+				3935EE4721887B6C00BE35F4 /* 轿车.wav in Resources */,
+				3935EDF521887B6C00BE35F4 /* 猫.wav in Resources */,
+				3935EE6D21887B6C00BE35F4 /* 12.wav in Resources */,
+				3935EDD921887B6C00BE35F4 /* 考拉.wav in Resources */,
+				3935EE8921887B6C00BE35F4 /* 竖琴.wav in Resources */,
+				3935EE1821887B6C00BE35F4 /* 姐夫.wav in Resources */,
+				3935EDE421887B6C00BE35F4 /* 斑马.wav in Resources */,
+				3935EE8421887B6C00BE35F4 /* 贝斯.wav in Resources */,
+				3935EE9521887B6C00BE35F4 /* 单簧管.wav in Resources */,
+				3935EEAA21887B6C00BE35F4 /* B.wav in Resources */,
+				3935EE4B21887B6C00BE35F4 /* 哈密瓜.wav in Resources */,
+				3935EEA321887B6C00BE35F4 /* M.wav in Resources */,
+				3935EE6F21887B6C00BE35F4 /* 8.wav in Resources */,
+				3935EE3321887B6C00BE35F4 /* 摩托车.wav in Resources */,
+				3935EE0C21887B6C00BE35F4 /* 你答对了.wav in Resources */,
+				3935EE2521887B6C00BE35F4 /* 表姐.wav in Resources */,
+				3935EE4221887B6C00BE35F4 /* 缆车.wav in Resources */,
+				3935EE4021887B6C00BE35F4 /* 高铁.wav in Resources */,
+				3935EE8321887B6C00BE35F4 /* 鼓.wav in Resources */,
+				3935EE5421887B6C00BE35F4 /* 菠萝.wav in Resources */,
+				3935EE6021887B6C00BE35F4 /* 草莓.wav in Resources */,
+				3935EE5C21887B6C00BE35F4 /* 石榴.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A162583C3A103C585B4B5E58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-C4X2/Pods-C4X2-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-C4X2/Pods-C4X2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA26C55A9EFE0395A4A9F707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-C4X2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3935EC7F2188776C00BE35F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3935ECF421887AD000BE35F4 /* SendData.m in Sources */,
+				3935EEBC21887B8100BE35F4 /* GameModel.m in Sources */,
+				3935ECDF21887A7B00BE35F4 /* ModuleViewCell.m in Sources */,
+				3935ECE421887A7B00BE35F4 /* GameViewController.m in Sources */,
+				3935ECEE21887AA400BE35F4 /* Tool.m in Sources */,
+				3935ECE221887A7B00BE35F4 /* DataViewCell.m in Sources */,
+				3935ECE721887A7B00BE35F4 /* FloorViewCell.m in Sources */,
+				3935EC962188776D00BE35F4 /* main.m in Sources */,
+				3935EEBA21887B8100BE35F4 /* ModuleModel.m in Sources */,
+				3935ECDE21887A7B00BE35F4 /* LayerViewCell.m in Sources */,
+				3935ECDA21887A7B00BE35F4 /* CatogoryViewController.m in Sources */,
+				3935ECEB21887A7B00BE35F4 /* ConnectionViewController.m in Sources */,
+				3935EC882188776C00BE35F4 /* AppDelegate.m in Sources */,
+				3935ECE321887A7B00BE35F4 /* GameProcessCell.m in Sources */,
+				3935ECE921887A7B00BE35F4 /* ColorViewCell.m in Sources */,
+				3935EEBB21887B8100BE35F4 /* SurfaceModel.m in Sources */,
+				3935ECE021887A7B00BE35F4 /* ModuleViewController.m in Sources */,
+				3935ECE521887A7B00BE35F4 /* StepModel.m in Sources */,
+				3935ECE821887A7B00BE35F4 /* CustomProcessCell.m in Sources */,
+				3935ECEA21887A7B00BE35F4 /* GameViewCell.m in Sources */,
+				3935ECE621887A7B00BE35F4 /* CustomViewController.m in Sources */,
+				3935ECDC21887A7B00BE35F4 /* SurfaceViewCell.m in Sources */,
+				3935ECDD21887A7B00BE35F4 /* CatogoryViewCell.m in Sources */,
+				3935ECF321887AD000BE35F4 /* NavigationController.m in Sources */,
+				3935ECE121887A7B00BE35F4 /* DataViewController.m in Sources */,
+				3935ECDB21887A7B00BE35F4 /* SurfaceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3935EC912188776D00BE35F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3935EC922188776D00BE35F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3935EC972188776D00BE35F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = C4X2/PrefixHeader.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3935EC982188776D00BE35F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = C4X2/PrefixHeader.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3935EC9A2188776D00BE35F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E02D22AA83C3ABCCB496ECE /* Pods-C4X2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YH5L38F8J;
+				INFOPLIST_FILE = C4X2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhongshanMarvelElectronicTechnology.C4GYMCute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3935EC9B2188776D00BE35F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D767FEAE49F5970C7566FBB /* Pods-C4X2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YH5L38F8J;
+				INFOPLIST_FILE = C4X2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZhongshanMarvelElectronicTechnology.C4GYMCute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3935EC7E2188776C00BE35F4 /* Build configuration list for PBXProject "C4X2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EC972188776D00BE35F4 /* Debug */,
+				3935EC982188776D00BE35F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3935EC992188776D00BE35F4 /* Build configuration list for PBXNativeTarget "C4X2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3935EC9A2188776D00BE35F4 /* Debug */,
+				3935EC9B2188776D00BE35F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3935EC7B2188776C00BE35F4 /* Project object */;
+}

@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  C4X2
+//
+//  Created by Hinwa on 2018/10/30.
+//  Copyright © 2018 Hinwa. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define screenW [UIScreen mainScreen].bounds.size.width
+#define screenH [UIScreen mainScreen].bounds.size.height
+
+#define W_ADAPTER(w) (float)(w)/1024*[UIScreen mainScreen].bounds.size.width
+#define H_ADAPTER(h) (float)(h)/768*[UIScreen mainScreen].bounds.size.height
+#define topHeight 64.f
+
+#import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import "Tool.h"
+#import "UIView+SDAutoLayout.h"
+#import "SVProgressHUD.h"
+#import <ReactiveObjC/ReactiveObjC.h>
+#import "GCDAsyncSocket.h"
+#import <Realm/Realm.h>
+
+#import "SendData.h"
+#import "ModuleModel.h"
+#import "GameModel.h"
+#import "SurfaceModel.h"
+#import "StepModel.h"
+
+#endif /* PrefixHeader_pch */
